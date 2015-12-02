@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Wall
   - point
+  - Mur
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - Enemies
   - Pickups
   - Player
-  - 
-  - 
+  - Foreground
+  - MidleGround
   - 
   - 
   - 
@@ -56,4 +57,7 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2309613187
+    locked: 0
+  - name: MidleGround
+    uniqueID: 1534781387
     locked: 0

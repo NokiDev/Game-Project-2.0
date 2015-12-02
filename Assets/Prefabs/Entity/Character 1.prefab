@@ -12,10 +12,10 @@ GameObject:
   - 50: {fileID: 5087384}
   - 61: {fileID: 6152674}
   - 95: {fileID: 9504374}
-  - 114: {fileID: 11456544}
   - 114: {fileID: 11456568}
   - 114: {fileID: 11451878}
   - 58: {fileID: 5867596}
+  - 114: {fileID: 11427462}
   m_Layer: 11
   m_Name: Character 1
   m_TagString: Player
@@ -216,6 +216,21 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &11427462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b9cd7783ee608640b191daa13e76f68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  invicibilityTime: 2
+  hurtForce: 10
+  healthBarGameObj: {fileID: 0}
 --- !u!114 &11451878
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -227,21 +242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99468c49e32c0d741a5641e90896582c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11456544
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 108138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ff1df68ece151a42b58f2aa63173425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  invicibilityTime: 2
-  hurtForce: 10
-  healthBarGameObj: {fileID: 0}
 --- !u!114 &11456568
 MonoBehaviour:
   m_ObjectHideFlags: 1

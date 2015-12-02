@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
-public class HealthManager : MonoBehaviour {
+
+public abstract class HealthManager : MonoBehaviour {
 
     public float health = 10f; //Vie de l'entite
     public float invicibilityTime = 2f;//Temps entre deux coups
@@ -9,20 +11,11 @@ public class HealthManager : MonoBehaviour {
     public float hurtForce = 10f; //Force ajouté lorsque le joueur prends un coup
 
     public GameObject healthBarGameObj; //Référence au sprite de la barre de vie
-    private SpriteRenderer healthBar;
-    private float lastHitTime;//Dernière fois ou le joueur s'est fait touché
-    private Vector3 healthScale;//Scale pour la bare de vie
-    private Animator anim;//Référence a l'animator
-    private Rigidbody2D rigidBody2D; //Référence au rigidbody
 
-
-    void Awake()
-    {
-        healthBar = healthBarGameObj.GetComponent<SpriteRenderer>();
-        anim = GetComponent<Animator>();
-        rigidBody2D = GetComponent<Rigidbody2D>();
-        healthScale = healthBar.transform.localScale;
-    }
+    protected float lastHitTime;//Dernière fois ou le joueur s'est fait touché
+    protected Vector3 healthScale;//Scale pour la bare de vie
+    protected Animator anim;//Référence a l'animator
+    protected Rigidbody2D rigidBody2D; //Référence au rigidbody
 
     void Update()
     {
@@ -60,13 +53,5 @@ public class HealthManager : MonoBehaviour {
         }
     }
 
-    public void UpdateHealthBar()
-    {
-        //Set la couleur de la barre en fonction de la vie du joueur 
-        healthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - health * 0.01f);
-
-        // Set le scale de la barre de vie proportionnellement a ses points de vie
-        healthBar.transform.localScale = new Vector3(healthScale.x * health * 0.01f, 1, 1);
-
-    }
+    protected virtual void UpdateHealthBar(){}
 }

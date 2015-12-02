@@ -9,9 +9,10 @@ GameObject:
   m_Component:
   - 4: {fileID: 440872}
   - 212: {fileID: 21273548}
-  m_Layer: 0
+  - 61: {fileID: 6126684}
+  m_Layer: 13
   m_Name: wall
-  m_TagString: Untagged
+  m_TagString: Mur
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23,11 +24,24 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10.5900002, y: -1.55999994, z: 0}
-  m_LocalScale: {x: 8.65611076, y: 8.65610313, z: 8.65610313}
+  m_LocalPosition: {x: -21.0300007, y: .540000021, z: 0}
+  m_LocalScale: {x: 62.4883919, y: 6.23863077, z: 3.11931539}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!61 &6126684
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105222}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Size: {x: .319999993, y: .319999993}
 --- !u!212 &21273548
 SpriteRenderer:
   m_ObjectHideFlags: 1
