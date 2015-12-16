@@ -44,23 +44,26 @@ public class VerticalMovementMecanism : MecanismScript {
             case MecaBehaviour.TIMER:
                 TimerBehaviour();
                 break;
-            case MecaBehaviour.ONESHOT:
-                OneShotBehaviour();
+            case MecaBehaviour.LOOP:
+                LoopBehaviour();
                 break;
         }
     }
 
     void DefaultBehaviour()
     {
-        if (m_Activated || m_Auto)
+        m_GoTop = m_Activated;
+        m_Locked = true;
+        m_AtTop = Physics2D.OverlapCircle(m_AtTopCheck.position, k_AtTopRadius, m_Mask);
+        m_AtBot = Physics2D.OverlapCircle(m_AtBotCheck.position, k_AtBotRadius, m_Mask);
+        if ((m_AtBot && !m_GoTop) || (m_AtTop && m_GoTop))
         {
-            m_AtTop = Physics2D.OverlapCircle(m_AtTopCheck.position, k_AtTopRadius, m_Mask);
-            m_AtBot = Physics2D.OverlapCircle(m_AtBotCheck.position, k_AtBotRadius, m_Mask);
-            if (m_AtTop)
-                m_GoTop = false;
-            if (m_AtBot)
-                m_GoTop = true;
+            m_Rigidbody2D.velocity = new Vector2(0, 0);
+            m_Locked = false;
 
+        }
+        else
+        {
             if (m_GoTop)
                 m_Rigidbody2D.velocity = new Vector2(0, 5);
             else
@@ -72,6 +75,36 @@ public class VerticalMovementMecanism : MecanismScript {
     {
         if (m_Activated || m_Auto)
         {
+            if (m_Timer < m_Delay)
+            {
+                m_Locked = true;
+                m_AtTop = Physics2D.OverlapCircle(m_AtTopCheck.position, k_AtTopRadius, m_Mask);
+                m_AtBot = Physics2D.OverlapCircle(m_AtBotCheck.position, k_AtBotRadius, m_Mask);
+                if (m_AtTop)
+                    m_GoTop = false;
+                if (m_AtBot)
+                    m_GoTop = true;
+
+                if (m_GoTop)
+                    m_Rigidbody2D.velocity = new Vector2(0, 5);
+                else
+                    m_Rigidbody2D.velocity = new Vector2(0, -5);
+            }
+            else
+            {
+                m_Locked = false;
+                m_Activated = false;
+                m_Timer = 0f;
+                m_Rigidbody2D.velocity = new Vector2(0, 0);
+            }
+            m_Timer += Time.deltaTime;
+        }
+    }
+
+    void LoopBehaviour()
+    {
+        if (m_Activated || m_Auto)
+        {
             m_AtTop = Physics2D.OverlapCircle(m_AtTopCheck.position, k_AtTopRadius, m_Mask);
             m_AtBot = Physics2D.OverlapCircle(m_AtBotCheck.position, k_AtBotRadius, m_Mask);
             if (m_AtTop)
@@ -84,24 +117,9 @@ public class VerticalMovementMecanism : MecanismScript {
             else
                 m_Rigidbody2D.velocity = new Vector2(0, -5);
         }
-    }
-
-    void OneShotBehaviour()
-    {
-
-        m_GoTop = m_Activated;
-        m_AtTop = Physics2D.OverlapCircle(m_AtTopCheck.position, k_AtTopRadius, m_Mask);
-        m_AtBot = Physics2D.OverlapCircle(m_AtBotCheck.position, k_AtBotRadius, m_Mask);
-        if ((m_AtBot && !m_GoTop) || (m_AtTop && m_GoTop))
-        {
-            m_Rigidbody2D.velocity = new Vector2(0, 0);
-        }
         else
         {
-            if (m_GoTop)
-                m_Rigidbody2D.velocity = new Vector2(0, 5);
-            else
-                m_Rigidbody2D.velocity = new Vector2(0, -5);
+            m_Rigidbody2D.velocity = new Vector2(0, 0);
         }
     }
 }
