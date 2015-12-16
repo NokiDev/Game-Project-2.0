@@ -6,7 +6,7 @@ public class PlateformMove : MonoBehaviour {
 	[SerializeField]
 	private LayerMask m_Mask;
 
-	private GameObject m_Plateform;
+	public GameObject m_Plateform;
 
 	private Transform m_AtBotCheck;
 	const float k_AtBotRadius = .2f;
@@ -25,7 +25,6 @@ public class PlateformMove : MonoBehaviour {
 	
 	// Use this for initialization
 	void Awake () {
-		m_Plateform = GameObject.Find ("Plateform");
 		m_Rigidbody2D = m_Plateform.GetComponent<Rigidbody2D> ();
 
 		m_AtTopCheck = transform.Find ("Top");
