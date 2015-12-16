@@ -778,38 +778,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
-    - target: {fileID: 107244, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_Name
-      value: Top
-      objectReference: {fileID: 0}
-    - target: {fileID: 136176, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_Name
-      value: Bot
-      objectReference: {fileID: 0}
-    - target: {fileID: 405196, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .519999981
-      objectReference: {fileID: 0}
-    - target: {fileID: 405196, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 8.97000027
-      objectReference: {fileID: 0}
-    - target: {fileID: 413970, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: .200000003
-      objectReference: {fileID: 0}
-    - target: {fileID: 413970, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -7.53000021
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431906, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: m_Auto
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11431906, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
-      propertyPath: behaviour
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0132ff8e4335c20448864a001a9b9241, type: 2}
   m_IsPrefabParent: 0

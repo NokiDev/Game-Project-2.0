@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 405196}
   m_Layer: 8
-  m_Name: East
+  m_Name: Top
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -40,7 +40,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 413970}
   m_Layer: 8
-  m_Name: West
+  m_Name: Bot
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -71,7 +71,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 107244}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.89000034, y: -.330000013, z: 0}
+  m_LocalPosition: {x: .519999981, y: 8.97000027, z: 0}
   m_LocalScale: {x: .0641124696, y: .223430365, z: 1}
   m_Children: []
   m_Father: {fileID: 471206}
@@ -83,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 136176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.2299995, y: .0299999993, z: 0}
+  m_LocalPosition: {x: .200000003, y: -7.53000021, z: 0}
   m_LocalScale: {x: .0641124696, y: .223430365, z: 1}
   m_Children: []
   m_Father: {fileID: 471206}
