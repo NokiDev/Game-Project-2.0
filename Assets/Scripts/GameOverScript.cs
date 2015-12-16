@@ -24,7 +24,7 @@ public class GameOver : MonoBehaviour
         )
         {
             // Recharge le niveau
-            Application.LoadLevel("test-kim");
+            Application.LoadLevel("test");
         }
 
         if (
