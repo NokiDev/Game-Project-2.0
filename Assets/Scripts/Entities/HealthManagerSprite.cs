@@ -3,8 +3,6 @@ using System.Collections;
 
 public class HealthManagerSprite : HealthManager {
 
-    private SpriteRenderer healthBar;
-
     void Awake()
     {
         healthBar = healthBarGameObj.GetComponent<SpriteRenderer>();
@@ -20,7 +18,6 @@ public class HealthManagerSprite : HealthManager {
 
         // Set le scale de la barre de vie proportionnellement a ses points de vie
         healthBar.transform.localScale = new Vector3(healthScale.x * health * 0.01f, 1, 1);
-
     }
 
 }

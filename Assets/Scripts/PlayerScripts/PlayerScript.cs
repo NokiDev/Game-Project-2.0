@@ -26,20 +26,25 @@ public class PlayerScript : MonoBehaviour {
 
     private bool m_Climb = false;
 
+    private Spell[] spells = { null, null, null };             //Tableau des 3 sorts que le joueur peut utiliser
+
+    //public Rigidbody2D fireBall;
 
     // Use this for initialization
-    void Awake () {
+    void Awake ()
+    {
         //Mise en place des références
         m_GroundCheck = transform.Find("GroundCheck");
         m_CeilingCheck = transform.Find("CeilingCheck");
         m_Anim = GetComponent<Animator>();
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
+        spells[0] = new FireballSpell(this.gameObject);
+        spells[0].init();
     }
 
-   void FixedUpdate()
+    void FixedUpdate()
     {
         m_Grounded = false;
-
         // Le player touche le sol si le cercle de collision touche quelque chose qui fais parti du masque WhatIsGround
         Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
         for (int i = 0; i < colliders.Length; i++)
@@ -53,6 +58,10 @@ public class PlayerScript : MonoBehaviour {
         m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
     }
 
+    public void useSpell(int id)
+    {
+        spells[id].onUse();   
+    }
 
     //Appelé lorsque l'on veut déplacer le joueur
     //Params : 

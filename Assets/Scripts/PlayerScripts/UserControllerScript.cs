@@ -30,6 +30,11 @@ public class UserControllerScript : MonoBehaviour {
         float v = Input.GetAxis("Vertical");
         // Pass all parameters to the character control script.
         m_Character.Move(h, v, crouch, m_Jump);
+        if(Input.GetButton ("Fire3"))
+        {
+            print("SORT N 0");
+            m_Character.useSpell(0);
+        }
         m_Jump = false;
     }
 }

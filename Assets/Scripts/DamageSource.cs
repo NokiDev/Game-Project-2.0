@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DamageSource : MonoBehaviour {
+public abstract class DamageSource : MonoBehaviour {
 
     /**/
     public float range = 2f; //Portée de la source de dégats
