@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class spellManager : MonoBehaviour {
+public class EnemyMovement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

@@ -17,7 +17,7 @@ public class damageBDF : DamageSource {
     {
        if( coll.gameObject.tag == "Player")
         {
-            HealthManager healthManager = coll.gameObject.GetComponent<HealthManager>();
+            EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
             healthManager.TakeDamage(this);
         }
     }

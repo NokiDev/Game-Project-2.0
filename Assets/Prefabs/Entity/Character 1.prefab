@@ -12,7 +12,6 @@ GameObject:
   - 50: {fileID: 5087384}
   - 61: {fileID: 6152674}
   - 95: {fileID: 9504374}
-  - 114: {fileID: 11456568}
   - 114: {fileID: 11451878}
   - 58: {fileID: 5867596}
   - 114: {fileID: 11427462}
@@ -78,12 +77,12 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.08921623, y: -1.45678353, z: 0}
+  m_LocalPosition: {x: -10.2599945, y: -1.52000427, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 2}
   m_Children:
+  - {fileID: 418472}
   - {fileID: 410582}
   - {fileID: 427964}
-  - {fileID: 418472}
   m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!4 &410582
@@ -97,7 +96,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!4 &418472
 Transform:
   m_ObjectHideFlags: 1
@@ -109,7 +108,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
-  m_RootOrder: 2
+  m_RootOrder: 0
 --- !u!4 &427964
 Transform:
   m_ObjectHideFlags: 1
@@ -121,7 +120,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!50 &5087384
 Rigidbody2D:
   serializedVersion: 2
@@ -210,7 +209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 2
-  damage: 20
+  damage: 3
   hurtForce: 50
   delay: 1
   targetLayer:
@@ -227,7 +226,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b9cd7783ee608640b191daa13e76f68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
+  maxHealth: 10
+  currentHealth: 0
   invicibilityTime: 2
   hurtForce: 10
   healthBarGameObj: {fileID: 0}
@@ -242,22 +242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99468c49e32c0d741a5641e90896582c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &11456568
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 108138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 91a2b2532b8559146b2a9036873152e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   m_MaxSpeed: 10
   m_JumpForce: 800
   m_CrouchSpeed: .360000014
   m_AirControl: 1
-  m_WhatIsGround:
+  m_FloorMask:
     serializedVersion: 2
     m_Bits: 4294965247
 --- !u!212 &21250824

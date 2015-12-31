@@ -11,6 +11,7 @@ GameObject:
   - 212: {fileID: 21282984}
   - 50: {fileID: 5096514}
   - 61: {fileID: 6171252}
+  - 114: {fileID: 11431008}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -59,6 +60,26 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: .319999993, y: .159999996}
+--- !u!114 &11431008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 160352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5deaa40139f04d64f8a9a4ec2bc32ec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 2
+  damage: 3
+  hurtForce: 50
+  delay: 1
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  m_TimeToLive: 2
+  m_Speed: 30
 --- !u!212 &21282984
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -115,6 +136,22 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: timeToLive
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: targetLayer.m_Bits
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_TimeToLive
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Speed
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

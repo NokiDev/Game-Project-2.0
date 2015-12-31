@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class PlayerScript : MonoBehaviour {
+public class PlayerMovement : MonoBehaviour {
+
+    private bool m_Jump = false; //Indique si le joueur saute
 
     [SerializeField]
     private float m_MaxSpeed = 10f;                    // Vittesse Maximum, sur l'axe des "x"
@@ -11,42 +13,50 @@ public class PlayerScript : MonoBehaviour {
     [SerializeField]
     private float m_CrouchSpeed = .36f;  // %tage de la maxSpeed appliqué lorsque le joueur s'acroupi
     [SerializeField]
-    private bool m_AirControl = false;                 // Indique si le joueur peut controler son saut;
+    private bool m_AirControl = false;               // Indique si le joueur peut controler son saut;
     [SerializeField]
-    private LayerMask m_WhatIsGround;                  // Masque qui determine les layer représentant le sol
+    private LayerMask m_FloorMask;                  // Masque qui determine les layer représentant le sol
 
     private Transform m_GroundCheck;    // Position ou l'on teste si le joueur touche le sol
     const float k_GroundedRadius = .2f; // Rayon du cercle de collision pour savoir si le joueur touche le sol
     private bool m_Grounded;            // Indique si le joueur touche le sol.
     private Transform m_CeilingCheck;   // Position ou l'on teste si le joueur touche le plafond ou non
     const float k_CeilingRadius = .01f; // Rayon du cercle de collision pour savoir si le joueur touche le plafond
+
     private Animator m_Anim;            // Référence à l'animator du joueur
+
     private Rigidbody2D m_Rigidbody2D;  // Référence au rigidbody du joueur
-    private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 
-    private bool m_Climb = false;
+    private bool m_FacingRight = true;  // Indique vers quelle direction le joueur regarde
 
-    private Spell[] spells = { null, null, null };             //Tableau des 3 sorts que le joueur peut utiliser
+    private bool m_Climb = false;       // Indique si le joueur est en train de grimper
 
     //public Rigidbody2D fireBall;
 
     // Use this for initialization
-    void Awake ()
+    void Awake()
     {
         //Mise en place des références
         m_GroundCheck = transform.Find("GroundCheck");
         m_CeilingCheck = transform.Find("CeilingCheck");
         m_Anim = GetComponent<Animator>();
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
-        spells[0] = new FireballSpell(this.gameObject);
-        spells[0].init();
+    }
+
+    private void Update()
+    {
+        if (!m_Jump)
+        {
+            // Read the jump input in Update so button presses aren't missed.
+            m_Jump = Input.GetButtonDown("Jump");
+        }
     }
 
     void FixedUpdate()
     {
         m_Grounded = false;
         // Le player touche le sol si le cercle de collision touche quelque chose qui fais parti du masque WhatIsGround
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
+        Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_FloorMask);
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
@@ -54,13 +64,16 @@ public class PlayerScript : MonoBehaviour {
         }
         m_Anim.SetBool("Ground", m_Grounded);
 
+        // Read the inputs.
+        bool crouch = Input.GetKey(KeyCode.LeftControl);
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+        // Pass all parameters to the character control script.
+        Move(h, v, crouch, m_Jump);
+        m_Jump = false;
+
         // Set la vitesse verticale pour les sauts
         m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-    }
-
-    public void useSpell(int id)
-    {
-        spells[id].onUse();   
     }
 
     //Appelé lorsque l'on veut déplacer le joueur
@@ -76,7 +89,7 @@ public class PlayerScript : MonoBehaviour {
             if (!crouch && m_Anim.GetBool("Crouch"))
             {
                 // Si le joueur est bloqué par le plafond, alors il reste accroupi
-                if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
+                if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_FloorMask))
                 {
                     crouch = true;
                 }
@@ -100,7 +113,7 @@ public class PlayerScript : MonoBehaviour {
             m_Anim.SetFloat("vSpeed", Mathf.Abs(moveV));
 
             if (m_Climb)
-                m_Rigidbody2D.velocity = new Vector2(0f, moveV*7f);
+                m_Rigidbody2D.velocity = new Vector2(0f, moveV * 7f);
             else
                 m_Rigidbody2D.velocity = new Vector2(moveH * m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
@@ -133,7 +146,7 @@ public class PlayerScript : MonoBehaviour {
         m_Climb = true;
         m_Rigidbody2D.gravityScale = 0f;
         Collider2D[] colliders = GetComponents<Collider2D>();
-        foreach(Collider2D coll in colliders)
+        foreach (Collider2D coll in colliders)
         {
             coll.isTrigger = true;
         }
@@ -162,5 +175,5 @@ public class PlayerScript : MonoBehaviour {
         theScale.x *= -1;
         transform.localScale = theScale;
     }
-	
+
 }

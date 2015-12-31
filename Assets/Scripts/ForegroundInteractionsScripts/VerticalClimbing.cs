@@ -4,7 +4,7 @@ using System.Collections;
 public class VerticalClimbing : MonoBehaviour {
 
 
-    private PlayerScript m_Player;      //Référence au script playerScript
+    private PlayerMovement m_Player;      //Référence au script playerScript
     [SerializeField]
     private LayerMask m_Mask;           //Masque pour le calque du joueur
 
@@ -27,7 +27,7 @@ public class VerticalClimbing : MonoBehaviour {
 	// Use this for initialization
 	void Awake () {
         //Initialise les références
-        m_Player = GameObject.Find("Character").GetComponent<PlayerScript>();
+        m_Player = GameObject.Find("Character").GetComponent<PlayerMovement>();
         m_AtTopCheck = transform.Find("Top");
         m_AtBotCheck = transform.Find("Bot");
     }

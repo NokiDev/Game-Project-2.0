@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class SwordScript : DamageSource {
+public class PlayerAttack : DamageSource {
 
     private Animator anim;
 
@@ -14,8 +14,6 @@ public class SwordScript : DamageSource {
 	
 	// Update is called once per frame
 	void Update () {
-        
-
         if(Input.GetButton("Fire1") && !attackLocked)
         {
             attack = true;
@@ -39,7 +37,7 @@ public class SwordScript : DamageSource {
         Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
         foreach(Collider2D enemy in enemies)
         {
-            HealthManager healthManager = enemy.gameObject.GetComponent<HealthManager>();
+            EntityHealth healthManager = enemy.gameObject.GetComponent<EntityHealth>();
             healthManager.TakeDamage(this);
         }
     }

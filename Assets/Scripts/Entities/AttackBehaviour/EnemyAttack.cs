@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ProjectileSource : MonoBehaviour {
+public class EnemyAttack : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {

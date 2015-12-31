@@ -5,7 +5,7 @@ public abstract class DamageSource : MonoBehaviour {
 
     /**/
     public float range = 2f; //Portée de la source de dégats
-    public float damage = 3f; //Dégats de la source
+    public int damage = 3; //Dégats de la source
     public float hurtForce = 50f; //Force de poussée lors d'une prise de dégats
     public float delay = 1f; //Delai entre deux attaque
     public LayerMask targetLayer;

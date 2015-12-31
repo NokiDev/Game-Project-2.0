@@ -1,22 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Spell : MonoBehaviour {
+public class Spell {
 
     public enum SpellType{PROJECTILE, HEAL, BUFF};
 
-    protected float m_CoolDown;
-    protected bool m_InCooldown;
+    protected float m_CoolDown;  //Nombre de temps avant de pouvoir relancer le sort
+    protected bool m_InCooldown;//Si le sort à été utilisé
 
-    protected float m_Timer;
+    protected float m_Timer; //Timer pour savoir si 'lon peut lancer le sort
 
-    protected string m_Name;
-    protected SpellType m_Type;
-
-    public virtual void setPrefab(Rigidbody2D body){}
+    protected string m_Name; // Nom du sort
+    protected SpellType m_Type; // Type du sort
 
     public virtual void init() { }
 
+    //Lorsque l'on utilise le sort
     public void onUse()
     {
 
@@ -36,13 +35,16 @@ public class Spell : MonoBehaviour {
         }
         else
         {
-            print("In CoolDown");
+          
         }
     }
 
+    //Comportement pour un projectile
     protected virtual void ProjectileBehaviour() { }
 
+    //Comportement pour un heal
     protected virtual void HealBehaviour() { }
 
+    //Comportement pour un buff
     protected virtual void BuffBehaviour() { }
 }
