@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections;
+using System;
 
 public class FireballSpell : Spell {
 
@@ -11,18 +12,13 @@ public class FireballSpell : Spell {
     public FireballSpell(GameObject boss)
     {
         m_Master = boss;
+        init();
     }
 
     public override void init () {
-        //Methode très très moche, pour récupérer le préfab de la boule de feu (Ressource.Load() ne fonctionne pas)
-        GameObject[] gameobjects = (GameObject[])(Resources.FindObjectsOfTypeAll(typeof(GameObject)));
-        foreach (GameObject gmeobj in gameobjects)
-        {
-            if(gmeobj.name == "Fireball")
-            {
-                m_FireBall = gmeobj;
-            }
-        } 
+        //Charge le préfab de la boule de feu à l'emplacement précisé
+        m_FireBall = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Spells/Fireball.prefab", typeof(GameObject));
+        //Initialise les infos du sorts
         m_Name = "Fireball";
         m_Type = SpellType.PROJECTILE;
         m_CoolDown = 2f;
@@ -40,7 +36,7 @@ public class FireballSpell : Spell {
         m_Timer = Time.time;
         m_InCooldown = true;
         float facingCoeff = 1;
-        GameObject ball = GameObject.Instantiate(m_FireBall, new Vector3(m_Master.transform.position.x, m_Master.transform.position.y, m_Master.transform.position.z), Quaternion.identity) as GameObject;
+        GameObject ball = MonoBehaviour.Instantiate(m_FireBall, new Vector3(m_Master.transform.position.x, m_Master.transform.position.y, m_Master.transform.position.z), Quaternion.identity) as GameObject;
         if (m_Master.transform.localScale.x > 0)
         {
             facingCoeff = -1;
