@@ -5,7 +5,7 @@ public class damageBDF : DamageSource {
 
     // Use this for initialization
     void Start () {
-        Destroy(this.gameObject, 3f);
+        Destroy(this.gameObject, 4f);
     }
 	
 	// Update is called once per frame
