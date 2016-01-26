@@ -6,19 +6,43 @@ public class PlayerAttack : DamageSource {
 
     private Animator anim;
 
+    private float m_staminaCost = 3f;
+    private float m_damageMultiplier = 0.3f;
+    private Combos m_Combo;
+
+    private int nbComboMax = 3;
+    private float interval = 0.2f;
+    private float comboTimer = 0.0f;
+    private int nbCombo = 0;
+
+    PlayerComboManager playerComboScript;
+    PlayerStamina m_PlayerStamina;
 
 	// Use this for initialization
 	void Awake () {
+        playerComboScript = GetComponentInParent<PlayerComboManager>();
+        m_PlayerStamina = GetComponentInParent<PlayerStamina>();
+        m_Combo = new Combos(this, m_damageMultiplier, m_staminaCost);
         anim = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if(Input.GetButton("Fire1") && !attackLocked)
+        comboTimer += Time.deltaTime;
+        if(Input.GetButton("Sword") && !attackLocked)
         {
-            attack = true;
+            if(nbCombo == 0 || comboTimer >=interval)
+            {
+                comboTimer = 0.0f;
+                attack = true;
+                nbCombo++;
+                if(nbCombo == nbComboMax)
+                {
+                    nbCombo = 0;
+                    LockAttack();
+                }
+            }            
         }
-
 	}
 
     void FixedUpdate()
@@ -28,7 +52,6 @@ public class PlayerAttack : DamageSource {
             anim.SetTrigger("Attack");
             Attack();
             attack = false;
-            LockAttack();
         }
     }
 
@@ -37,6 +60,8 @@ public class PlayerAttack : DamageSource {
         Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
         foreach(Collider2D enemy in enemies)
         {
+            playerComboScript.addCombo(m_Combo);
+            m_PlayerStamina.RegenStamina(1f);
             EntityHealth healthManager = enemy.gameObject.GetComponent<EntityHealth>();
             healthManager.TakeDamage(this);
         }

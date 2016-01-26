@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Script de l'écran titre
@@ -16,7 +17,7 @@ public class MenuScript : MonoBehaviour
          {
              // Sur le clic, on démarre le premier niveau
              // "Stage1" est le nom de la première scène que nous avons créés.
-             Application.LoadLevel("test-kim");
+             SceneManager.LoadScene("test-kim");
          }
     }
 }

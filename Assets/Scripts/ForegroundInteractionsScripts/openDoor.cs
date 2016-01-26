@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class openDoor : MonoBehaviour {
 
@@ -27,6 +28,6 @@ public class openDoor : MonoBehaviour {
 
     void open()
     {
-        Application.LoadLevel(dest);
+        SceneManager.LoadScene(dest);
     }
 }

@@ -90,7 +90,7 @@ Material:
       data:
         first:
           name: _Cutoff
-        second: .5
+        second: 0.5
       data:
         first:
           name: PixelSnap
@@ -98,7 +98,7 @@ Material:
       data:
         first:
           name: _Parallax
-        second: .0199999996
+        second: 0.02
       data:
         first:
           name: _ZWrite
@@ -106,7 +106,7 @@ Material:
       data:
         first:
           name: _Glossiness
-        second: .5
+        second: 0.5
       data:
         first:
           name: _BumpScale
@@ -139,4 +139,4 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: .199999928, g: 1, b: 0, a: 1}
+        second: {r: 0.000000022351742, g: 1, b: 0, a: 1}

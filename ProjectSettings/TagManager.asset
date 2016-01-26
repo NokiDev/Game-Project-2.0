@@ -9,6 +9,7 @@ TagManager:
   - Wall
   - point
   - Mur
+  - Moving
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Ground
   - Enemies
   - Pickups
-  - Player
+  - Character
   - Foreground
   - MidleGround
   - 

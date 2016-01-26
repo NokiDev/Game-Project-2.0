@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Relance ou quitte la partie en cours
@@ -24,7 +25,7 @@ public class GameOver : MonoBehaviour
         )
         {
             // Recharge le niveau
-            Application.LoadLevel("test");
+            SceneManager.LoadScene("test");
         }
 
         if (
@@ -41,7 +42,7 @@ public class GameOver : MonoBehaviour
         )
         {
             // Retourne au menu
-            Application.LoadLevel("menu");
+            SceneManager.LoadScene("menu");
         }
     }
 }

@@ -12,29 +12,33 @@ public class FireballSpell : Spell {
     public FireballSpell(GameObject boss)
     {
         m_Master = boss;
-        init();
-    }
-
-    public override void init () {
         //Charge le préfab de la boule de feu à l'emplacement précisé
         m_FireBall = (GameObject)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Spells/Fireball.prefab", typeof(GameObject));
         //Initialise les infos du sorts
         m_Name = "Fireball";
         m_Type = SpellType.PROJECTILE;
-        m_CoolDown = 2f;
-        m_InCooldown = false;
+        m_CoolDown = 0.3f;
+        inCooldown = false;
         m_Timer = 0f;
+        staminaCost = 10f;
+        comboDamageMultiplier = 1f;
+        combo = new Combos(m_FireBall.GetComponent<DamageSource>(), comboDamageMultiplier, staminaCost);
+    }
+
+    public override void init () {
+        
 	}
 
     // Update is called once per frame
     void Update () {
+        
 	}
 
     //Comportement de la boule de feu
     protected override void ProjectileBehaviour()
     {
         m_Timer = Time.time;
-        m_InCooldown = true;
+        inCooldown = true;
         float facingCoeff = 1;
         GameObject ball = MonoBehaviour.Instantiate(m_FireBall, new Vector3(m_Master.transform.position.x, m_Master.transform.position.y, m_Master.transform.position.z), Quaternion.identity) as GameObject;
         if (m_Master.transform.localScale.x > 0)
