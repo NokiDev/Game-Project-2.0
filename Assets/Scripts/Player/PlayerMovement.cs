@@ -114,9 +114,9 @@ public class PlayerMovement : MonoBehaviour {
     {
         if(coll.gameObject.tag == "Moving")
         {
-            Vector3 pos = transform.localPosition;
+            /*Vector3 pos = transform.localPosition;
             Vector2 vel = coll.gameObject.GetComponent<Rigidbody2D>().velocity;
-            transform.localPosition = new Vector3(pos.x + vel.x, pos.y + vel.y, pos.z);
+            transform.localPosition = new Vector3(pos.x + vel.x, pos.y + vel.y, pos.z);*/
         }
     }
     
@@ -124,7 +124,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         if(coll.gameObject.tag == "Moving")
         {
-            this.gameObject.transform.parent = null;
+           /* this.gameObject.transform.parent = null;*/
         }
     }    
 }

@@ -108,9 +108,11 @@ public abstract class MovementBehaviour : MonoBehaviour {
     protected void MovementFixedUpdate()
     {
         Grounded = false;
-        if(m_Rigidbody2D.velocity.y == 0)
+        RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 10, m_FloorMask);
+        if (hit && hit.distance == 0)   
         {
             Grounded = true;
+            
         }
         m_Anim.SetBool("Ground", Grounded);
         float moveH = 0f;

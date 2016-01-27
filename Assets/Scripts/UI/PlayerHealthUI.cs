@@ -7,6 +7,15 @@ public class PlayerHealthUI : MonoBehaviour {
 
     private Image m_HealthBar;
 
+    void Awake()
+    {
+        if(GameObject.Find("Character") == null)
+        {
+            Debug.LogWarning("Warning Character not found !");
+            gameObject.SetActive(false);
+        }
+    }
+
 	// Use this for initialization
 	void Start () {
         m_HealthBar = GetComponentInChildren<Image>();

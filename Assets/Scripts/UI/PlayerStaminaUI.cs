@@ -8,16 +8,28 @@ public class PlayerStaminaUI : MonoBehaviour
 
     private Image m_StaminaBar;
 
+    private GameObject m_Player;
+
     // Use this for initialization
+    void Awake()
+    {
+        if(GameObject.Find("Character") == null)
+        {
+            Debug.LogWarning("WARNING Character Gameobject not found");
+            this.gameObject.SetActive(false);
+        }
+    }
+
     void Start()
     {
+        m_Player = GameObject.Find("Character");
         m_StaminaBar = GetComponentInChildren<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float stamina = GameObject.Find("Character").GetComponent<PlayerStamina>().Stamina;
+        float stamina = m_Player.GetComponent<PlayerStamina>().Stamina;
 
         //Debug.Log(stamina);
 
