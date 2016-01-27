@@ -66,7 +66,6 @@ public class PlayerCaracteristics : MonoBehaviour {
     }
     // Use this for initialization
     void Start () {
-
         m_NumberOfHealthUpgrades = SaveManager.instance.getValue<int>("HealthUpgrades");
         m_NumberOfStaminaUpgrades = SaveManager.instance.getValue<int>("StaminaUpgrades");
         m_HasUnlockStamina = SaveManager.instance.getValue<bool>("StaminaUnlocked");
@@ -74,7 +73,6 @@ public class PlayerCaracteristics : MonoBehaviour {
         {
             m_Health = SaveManager.instance.getValue<float>("Health");
         }
-
         m_HealthMax += m_NumberOfHealthUpgrades * 20;
         m_StaminaMax += m_NumberOfStaminaUpgrades * 20;
         m_Stamina = m_StaminaMax;

@@ -26,9 +26,19 @@ public class ClimbableObjectScript : MonoBehaviour {
    // Use this for initialization
    void Awake()
    {
-       m_onCenter = false;
-       m_Player = GameObject.Find("Character").GetComponent<PlayerMovement>();
+        m_onCenter = false;
+        if (GameObject.Find("Character") == null)
+        {
+            Debug.Log("WARNING Character not found");
+            this.enabled = false;
+        }
+       
    }
+
+    void Start()
+    {
+        m_Player = GameObject.Find("Character").GetComponent<PlayerMovement>();
+    }
 
    void FixedUpdate()
    {

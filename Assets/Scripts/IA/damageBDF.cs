@@ -6,6 +6,7 @@ public class damageBDF : DamageSource {
     // Use this for initialization
     void Start () {
         Destroy(this.gameObject, 4f);
+        hurtForce = 15f;
     }
 	
 	// Update is called once per frame
@@ -17,7 +18,7 @@ public class damageBDF : DamageSource {
     {
        if( coll.gameObject.tag == "Player")
         {
-            EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
+            PlayerHealth healthManager = coll.gameObject.GetComponent<PlayerHealth>();
             healthManager.TakeDamage(this);
         }
     }
