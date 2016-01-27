@@ -9,7 +9,7 @@ public class PlayerHealth : HealthManager {
         m_Caracteristics = GetComponent<PlayerCaracteristics>();
         m_RigidBody = GetComponent<Rigidbody2D>();
         m_Health = m_Caracteristics.Health;
-	}
+    }
 
     // Update is called once per frame
     void Update()
@@ -35,7 +35,9 @@ public class PlayerHealth : HealthManager {
                 // Ajoute une force en direction du vecteur multiplié par la force de dégats
                 m_RigidBody.AddForce(hurtVector * damageSource.hurtForce);
 
-                // Réduit la vie du joueur de 10
+                // Réduit la vie du joueur
+                Debug.Log(damageSource.damage);
+                Debug.Log(m_Health);
                 m_Health -= damageSource.damage;
                 m_LastHitTime = Time.time;
 

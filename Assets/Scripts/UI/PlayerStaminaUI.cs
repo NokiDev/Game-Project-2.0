@@ -34,7 +34,7 @@ public class PlayerStaminaUI : MonoBehaviour
         //Debug.Log(stamina);
 
         // Set le scale de la barre de vie proportionnellement a ses points de vie
-        m_StaminaBar.transform.localScale = new Vector3(m_StaminaBar.transform.localScale.x * stamina * 0.01f, 1, 1);
+        m_StaminaBar.fillAmount = stamina * 0.01f;
 
     }
 }
