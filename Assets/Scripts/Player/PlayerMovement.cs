@@ -109,6 +109,14 @@ public class PlayerMovement : MonoBehaviour {
         }
         return m_CurrentMovementBehaviour;
     }
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag == "Moving")
+        {
+            this.gameObject.transform.parent = coll.transform;
+        }
+    }
   
     void OnCollisionStay2D(Collision2D coll)
     {
@@ -124,7 +132,7 @@ public class PlayerMovement : MonoBehaviour {
     {
         if(coll.gameObject.tag == "Moving")
         {
-           /* this.gameObject.transform.parent = null;*/
+           this.gameObject.transform.parent = null;
         }
     }    
 }

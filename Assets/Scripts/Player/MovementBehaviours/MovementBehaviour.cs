@@ -21,7 +21,7 @@ public abstract class MovementBehaviour : MonoBehaviour {
     protected Transform m_CeilingCheck;               // Position ou l'on teste si le joueur touche le plafond ou non
     protected const float k_CeilingRadius = .01f;     // Rayon du cercle de collision pour savoir si le joueur touche le plafond
 
-    protected bool m_FacingRight = true;              // Indique vers quelle direction le joueur regarde
+    protected bool m_FacingRight = false;              // Indique vers quelle direction le joueur regarde
 
     protected bool lockHorizontal = false;
     protected bool lockVertical = true;
