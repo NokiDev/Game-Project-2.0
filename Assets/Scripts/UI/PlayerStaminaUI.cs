@@ -15,7 +15,7 @@ public class PlayerStaminaUI : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         float stamina = GameObject.Find("Character").GetComponent<PlayerStamina>().Stamina;
 
