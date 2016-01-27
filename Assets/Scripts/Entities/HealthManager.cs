@@ -81,7 +81,7 @@ public class HealthManager : MonoBehaviour {
 
                 if (m_Health <= 0)
                 {
-                    m_Manager.Death();
+                    //m_Manager.Death();
                 }
             }
         }

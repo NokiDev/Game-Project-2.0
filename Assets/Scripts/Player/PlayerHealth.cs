@@ -7,6 +7,7 @@ public class PlayerHealth : HealthManager {
 	// Use this for initialization
 	void Start () {
         m_Caracteristics = GetComponent<PlayerCaracteristics>();
+        m_RigidBody = GetComponent<Rigidbody2D>();
         m_Health = m_Caracteristics.Health;
 	}
 
@@ -15,7 +16,7 @@ public class PlayerHealth : HealthManager {
     {
         if (m_Health < 0)
         {
-            m_Manager.Death();
+            //m_Manager.Death();
         }
     }
 
@@ -41,7 +42,7 @@ public class PlayerHealth : HealthManager {
                 if (m_Health <= 0)
                 {
                     m_Health = 0;
-                    m_Manager.Death();
+                    //m_Manager.Death();
                 }
                 m_Caracteristics.Health = m_Health;
             }
