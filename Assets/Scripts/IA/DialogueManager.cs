@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour {
 
     private int marge=1;
     public GameObject bulle;
+    public GameObject bulleJoueur;
     public static DialogueManager instance;
 
 
@@ -35,13 +36,17 @@ public class DialogueManager : MonoBehaviour {
         bulle.GetComponentInChildren<TextMesh>().text = paroles;
         bulle.gameObject.GetComponent<Transform>().position = new Vector2(pnj.transform.position.x, (pnj.gameObject.GetComponent<Collider2D>().bounds.size.y)+marge);
 
-        
+    }
+    public void afficherReponses(string paroles, GameObject joueur)
+    {
+        bulleJoueur.SetActive(true);
+        bulleJoueur.GetComponentInChildren<TextMesh>().text = paroles;
+        bulleJoueur.gameObject.GetComponent<Transform>().position = new Vector2(joueur.transform.position.x, (joueur.gameObject.GetComponent<Collider2D>().bounds.size.y) + marge);
     }
 
     public void arreter()
     {
         bulle.SetActive(false);
-        Debug.Log("AHAHAHA");
 
     }
 
