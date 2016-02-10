@@ -104,12 +104,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   range: 2
-  damage: 3
+  damage: 10
   hurtForce: 50
   delay: 1
   targetLayer:
     serializedVersion: 2
-    m_Bits: 2560
+    m_Bits: 512
   m_TimeToLive: 2
   m_Speed: 30
 --- !u!198 &19867460
@@ -1719,7 +1719,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: targetLayer.m_Bits
-      value: 2560
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TimeToLive
@@ -1728,6 +1728,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_Speed
       value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: damage
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

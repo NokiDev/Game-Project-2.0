@@ -6,13 +6,15 @@ public class PlayerHealthUI : MonoBehaviour {
 
 
     private Image m_HealthBar;
+    private GameObject m_Player;
 
     void Awake()
     {
-        if(GameObject.Find("Character") == null)
+        if((m_Player = GameObject.Find("Character")) == null)
         {
             Debug.LogWarning("Warning Character not found !");
             gameObject.SetActive(false);
+
         }
     }
 
@@ -23,7 +25,7 @@ public class PlayerHealthUI : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () { 
-        float playerHealth = GameObject.Find("Character").GetComponent<PlayerCaracteristics>().Health;
+        float playerHealth = m_Player.GetComponent<PlayerCaracteristics>().Health;
         m_HealthBar.material.color = Color.Lerp(Color.green, Color.red, 1 - playerHealth * 0.01f);
 
         // Set le scale de la barre de vie proportionnellement a ses points de vie
