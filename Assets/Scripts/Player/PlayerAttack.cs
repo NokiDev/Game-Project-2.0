@@ -67,11 +67,14 @@ public class PlayerAttack : DamageSource {
         }*/
     }
 
-    void OnTriggerEnter2D(Collision coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
-        playerComboScript.addCombo(m_Combo);
-        m_PlayerStamina.RegenStamina(1f);
-        EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
-        healthManager.TakeDamage(this);
+        if(coll.tag == "Enemies")
+        {
+            playerComboScript.addCombo(m_Combo);
+            m_PlayerStamina.RegenStamina(1f);
+            EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
+            healthManager.TakeDamage(this);
+        } 
     }
 }

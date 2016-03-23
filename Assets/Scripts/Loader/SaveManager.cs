@@ -4,7 +4,12 @@ using System;
 using System.Collections.Generic;
 
 public interface ISaveProperty
-{ }
+{
+    Type Type();
+
+    string ToString();
+
+}
 
 public class SaveProperty<T> : ISaveProperty
 {
@@ -19,9 +24,19 @@ public class SaveProperty<T> : ISaveProperty
         m_Value = value;
     }
 
-    public T getValue()
-    {
+    public T GetValue()
+    { 
         return m_Value;
+    }
+
+    public Type Type()
+    {
+        return m_Value.GetType();
+    }
+
+    public override string ToString()
+    {
+        return m_Value.ToString();
     }
 }
 
@@ -42,12 +57,13 @@ public class SaveManager : MonoBehaviour {
     [Serializable]
     public class PropertyFloat : Property<float> { }
 
-
+    public bool m_Reset = false;
+    
     public PropertyInt[] DefaultIntProperties; ///Array of Int Caracteristics
     public PropertyFloat[] DefaultFloatProperties;///Array of Float Caracteristics
     public PropertyString[] DefaultStringProperties;///Array of String Caracteristics
 
-    private Dictionary<string, ISaveProperty> m_Caracteristics = new Dictionary<string, ISaveProperty>();
+    private Dictionary<string, ISaveProperty> m_SaveProperties = new Dictionary<string, ISaveProperty>();
 
     // Use this for initialization
     void Awake()
@@ -66,47 +82,69 @@ public class SaveManager : MonoBehaviour {
         ///Init default Caracs
         foreach (PropertyInt c in DefaultIntProperties)
         {
-            m_Caracteristics[c.name] = new SaveProperty<int>(c.value);
+            m_SaveProperties[c.name] = new SaveProperty<int>(c.value);
         }
         foreach (PropertyString c in DefaultStringProperties)
         {
-            m_Caracteristics[c.name] = new SaveProperty<string>(c.value);
+            m_SaveProperties[c.name] = new SaveProperty<string>(c.value);
         }
         foreach (PropertyFloat c in DefaultFloatProperties)
         {
-            m_Caracteristics[c.name] = new SaveProperty<float>(c.value);
+            m_SaveProperties[c.name] = new SaveProperty<float>(c.value);
         }
     }
 
     public void Save()
     {
-
-    }
-
-    public void Load()
-    {
-
-    }
-
-    public void addValue<T>(string key, T value)
-    {
-        m_Caracteristics[key] = new SaveProperty<T>(value);
+        
     }
 
     public void setValue<T>(string key, T value)
     {
-        SaveProperty<T> carac = (SaveProperty<T>)(m_Caracteristics[key]);
+        SaveProperty<T> carac = (SaveProperty<T>)(m_SaveProperties[key]);
         carac.setValue(value);
+        if (carac.GetValue() is float)
+        {
+            var d = (SaveProperty<float>)m_SaveProperties[key];
+            PlayerPrefs.SetFloat(key, d.GetValue());
+        }
+        else if (carac.GetValue() is string)
+        {
+            var d = (SaveProperty<string>)m_SaveProperties[key];
+            PlayerPrefs.SetString(key, d.GetValue());
+        }
+        else if (carac.GetValue() is int)
+        {
+            var d = (SaveProperty<int>)m_SaveProperties[key];
+            PlayerPrefs.SetInt(key, d.GetValue());
+        }
+        else if (carac.GetValue() is bool)
+        {
+            var d= (SaveProperty<bool>)m_SaveProperties[key];
+            PlayerPrefs.SetInt(key, (d.GetValue()) ? 1 : 0);
+        }
     }
 
     public T getValue<T>(string key)
     {
-        Debug.Log(key);
-        if (m_Caracteristics.ContainsKey(key))
+        if (PlayerPrefs.HasKey(key) && !m_Reset)
         {
-            SaveProperty<T> carac = (SaveProperty<T>)(m_Caracteristics[key]);
-            return carac.getValue();
+            if (typeof(T) == typeof(string))
+                m_SaveProperties[key] = new SaveProperty<string>(PlayerPrefs.GetString(key));
+            else if (typeof(T) == typeof(float))
+                m_SaveProperties[key] = new SaveProperty<float>(PlayerPrefs.GetFloat(key));
+            else if (typeof(T) == typeof(int))
+                m_SaveProperties[key] = new SaveProperty<int>(PlayerPrefs.GetInt(key));
+            else if (typeof(T) == typeof(bool))
+                m_SaveProperties[key] = new SaveProperty<bool>((PlayerPrefs.GetInt(key)>0) ? true : false);
         }
+        if(m_SaveProperties.ContainsKey(key))
+            return ((SaveProperty<T>)m_SaveProperties[key]).GetValue();
         return default(T);
+    }
+
+    public bool keyExist(string key)
+    {
+        return m_SaveProperties.ContainsKey(key);
     }
 }

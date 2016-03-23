@@ -3206,6 +3206,10 @@ Prefab:
       propertyPath: DefaultFloatProperties.Array.data[0].value
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 11419860, guid: 5f9e4c54d20d8324186532aa191e0e09, type: 2}
+      propertyPath: m_Reset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5f9e4c54d20d8324186532aa191e0e09, type: 2}
   m_IsPrefabParent: 0
@@ -3971,6 +3975,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 224: {fileID: 1886276572}
+  - 114: {fileID: 1886276573}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -3996,6 +4001,17 @@ RectTransform:
   m_AnchoredPosition: {x: -0.000030517578, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1886276573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1886276571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d3dea6c69a7444093ed16ec6543546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1891207814
 GameObject:
   m_ObjectHideFlags: 0
@@ -4457,9 +4473,8 @@ GameObject:
   - 224: {fileID: 2125355150}
   - 222: {fileID: 2125355153}
   - 114: {fileID: 2125355152}
-  - 114: {fileID: 2125355151}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4482,17 +4497,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2125355151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2125355149}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6abbf4b1c0504be45a219d71fc138e87, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2125355152
 MonoBehaviour:
   m_ObjectHideFlags: 0

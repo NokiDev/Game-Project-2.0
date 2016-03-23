@@ -38,7 +38,10 @@ public class ProjectileDamageSource : DamageSource {
                 Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
                 foreach (Collider2D enemy in enemies)
                 {
-                    enemy.gameObject.GetComponent<PlayerHealth>().TakeDamage(this);
+                    if(enemy.tag == "Enemies")
+                    {
+                        enemy.gameObject.GetComponent<PlayerHealth>().TakeDamage(this);
+                    }
                 }
                 Destroy(this.gameObject);
             }
