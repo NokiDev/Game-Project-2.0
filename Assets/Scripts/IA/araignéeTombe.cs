@@ -25,9 +25,8 @@ public class araignéeTombe : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        
-
         if (this.gameObject.GetComponent<Rigidbody2D>().gravityScale < 0 ) {
+            Debug.Log("test");
             Collider2D coll = Physics2D.OverlapArea(vectorA, vectorB, mask);
             if (coll != null)
             {

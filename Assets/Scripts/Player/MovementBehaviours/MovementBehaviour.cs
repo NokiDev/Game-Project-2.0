@@ -109,7 +109,8 @@ public abstract class MovementBehaviour : MonoBehaviour {
     {
         Grounded = false;
         RaycastHit2D hit = Physics2D.Raycast(m_GroundCheck.position, Vector2.down, 10, m_FloorMask);
-        if (hit && hit.distance == 0)   
+		Debug.Log (hit.distance);
+		if (hit && hit.distance == 0)   
         {
             Grounded = true;
             

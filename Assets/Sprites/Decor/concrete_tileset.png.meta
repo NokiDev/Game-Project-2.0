@@ -1,0 +1,7113 @@
+fileFormatVersion: 2
+guid: 3ded59c8c2f7547e0a84b5c5fc8bc494
+timeCreated: 1460496802
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: concrete_tileset_0
+    21300002: concrete_tileset_1
+    21300004: concrete_tileset_2
+    21300006: concrete_tileset_3
+    21300008: concrete_tileset_4
+    21300010: concrete_tileset_5
+    21300012: concrete_tileset_6
+    21300014: concrete_tileset_7
+    21300016: concrete_tileset_8
+    21300018: concrete_tileset_9
+    21300020: concrete_tileset_10
+    21300022: concrete_tileset_11
+    21300024: concrete_tileset_12
+    21300026: concrete_tileset_13
+    21300028: concrete_tileset_14
+    21300030: concrete_tileset_15
+    21300032: concrete_tileset_16
+    21300034: concrete_tileset_17
+    21300036: concrete_tileset_18
+    21300038: concrete_tileset_19
+    21300040: concrete_tileset_20
+    21300042: concrete_tileset_21
+    21300044: concrete_tileset_22
+    21300046: concrete_tileset_23
+    21300048: concrete_tileset_24
+    21300050: concrete_tileset_25
+    21300052: concrete_tileset_26
+    21300054: concrete_tileset_27
+    21300056: concrete_tileset_28
+    21300058: concrete_tileset_29
+    21300060: concrete_tileset_30
+    21300062: concrete_tileset_31
+    21300064: concrete_tileset_32
+    21300066: concrete_tileset_33
+    21300068: concrete_tileset_34
+    21300070: concrete_tileset_35
+    21300072: concrete_tileset_36
+    21300074: concrete_tileset_37
+    21300076: concrete_tileset_38
+    21300078: concrete_tileset_39
+    21300080: concrete_tileset_40
+    21300082: concrete_tileset_41
+    21300084: concrete_tileset_42
+    21300086: concrete_tileset_43
+    21300088: concrete_tileset_44
+    21300090: concrete_tileset_45
+    21300092: concrete_tileset_46
+    21300094: concrete_tileset_47
+    21300096: concrete_tileset_48
+    21300098: concrete_tileset_49
+    21300100: concrete_tileset_50
+    21300102: concrete_tileset_51
+    21300104: concrete_tileset_52
+    21300106: concrete_tileset_53
+    21300108: concrete_tileset_54
+    21300110: concrete_tileset_55
+    21300112: concrete_tileset_56
+    21300114: concrete_tileset_57
+    21300116: concrete_tileset_58
+    21300118: concrete_tileset_59
+    21300120: concrete_tileset_60
+    21300122: concrete_tileset_61
+    21300124: concrete_tileset_62
+    21300126: concrete_tileset_63
+    21300128: concrete_tileset_64
+    21300130: concrete_tileset_65
+    21300132: concrete_tileset_66
+    21300134: concrete_tileset_67
+    21300136: concrete_tileset_68
+    21300138: concrete_tileset_69
+    21300140: concrete_tileset_70
+    21300142: concrete_tileset_71
+    21300144: concrete_tileset_72
+    21300146: concrete_tileset_73
+    21300148: concrete_tileset_74
+    21300150: concrete_tileset_75
+    21300152: concrete_tileset_76
+    21300154: concrete_tileset_77
+    21300156: concrete_tileset_78
+    21300158: concrete_tileset_79
+    21300160: concrete_tileset_80
+    21300162: concrete_tileset_81
+    21300164: concrete_tileset_82
+    21300166: concrete_tileset_83
+    21300168: concrete_tileset_84
+    21300170: concrete_tileset_85
+    21300172: concrete_tileset_86
+    21300174: concrete_tileset_87
+    21300176: concrete_tileset_88
+    21300178: concrete_tileset_89
+    21300180: concrete_tileset_90
+    21300182: concrete_tileset_91
+    21300184: concrete_tileset_92
+    21300186: concrete_tileset_93
+    21300188: concrete_tileset_94
+    21300190: concrete_tileset_95
+    21300192: concrete_tileset_96
+    21300194: concrete_tileset_97
+    21300196: concrete_tileset_98
+    21300198: concrete_tileset_99
+    21300200: concrete_tileset_100
+    21300202: concrete_tileset_101
+    21300204: concrete_tileset_102
+    21300206: concrete_tileset_103
+    21300208: concrete_tileset_104
+    21300210: concrete_tileset_105
+    21300212: concrete_tileset_106
+    21300214: concrete_tileset_107
+    21300216: concrete_tileset_108
+    21300218: concrete_tileset_109
+    21300220: concrete_tileset_110
+    21300222: concrete_tileset_111
+    21300224: concrete_tileset_112
+    21300226: concrete_tileset_113
+    21300228: concrete_tileset_114
+    21300230: concrete_tileset_115
+    21300232: concrete_tileset_116
+    21300234: concrete_tileset_117
+    21300236: concrete_tileset_118
+    21300238: concrete_tileset_119
+    21300240: concrete_tileset_120
+    21300242: concrete_tileset_121
+    21300244: concrete_tileset_122
+    21300246: concrete_tileset_123
+    21300248: concrete_tileset_124
+    21300250: concrete_tileset_125
+    21300252: concrete_tileset_126
+    21300254: concrete_tileset_127
+    21300256: concrete_tileset_128
+    21300258: concrete_tileset_129
+    21300260: concrete_tileset_130
+    21300262: concrete_tileset_131
+    21300264: concrete_tileset_132
+    21300266: concrete_tileset_133
+    21300268: concrete_tileset_134
+    21300270: concrete_tileset_135
+    21300272: concrete_tileset_136
+    21300274: concrete_tileset_137
+    21300276: concrete_tileset_138
+    21300278: concrete_tileset_139
+    21300280: concrete_tileset_140
+    21300282: concrete_tileset_141
+    21300284: concrete_tileset_142
+    21300286: concrete_tileset_143
+    21300288: concrete_tileset_144
+    21300290: concrete_tileset_145
+    21300292: concrete_tileset_146
+    21300294: concrete_tileset_147
+    21300296: concrete_tileset_148
+    21300298: concrete_tileset_149
+    21300300: concrete_tileset_150
+    21300302: concrete_tileset_151
+    21300304: concrete_tileset_152
+    21300306: concrete_tileset_153
+    21300308: concrete_tileset_154
+    21300310: concrete_tileset_155
+    21300312: concrete_tileset_156
+    21300314: concrete_tileset_157
+    21300316: concrete_tileset_158
+    21300318: concrete_tileset_159
+    21300320: concrete_tileset_160
+    21300322: concrete_tileset_161
+    21300324: concrete_tileset_162
+    21300326: concrete_tileset_163
+    21300328: concrete_tileset_164
+    21300330: concrete_tileset_165
+    21300332: concrete_tileset_166
+    21300334: concrete_tileset_167
+    21300336: concrete_tileset_168
+    21300338: concrete_tileset_169
+    21300340: concrete_tileset_170
+    21300342: concrete_tileset_171
+    21300344: concrete_tileset_172
+    21300346: concrete_tileset_173
+    21300348: concrete_tileset_174
+    21300350: concrete_tileset_175
+    21300352: concrete_tileset_176
+    21300354: concrete_tileset_177
+    21300356: concrete_tileset_178
+    21300358: concrete_tileset_179
+    21300360: concrete_tileset_180
+    21300362: concrete_tileset_181
+    21300364: concrete_tileset_182
+    21300366: concrete_tileset_183
+    21300368: concrete_tileset_184
+    21300370: concrete_tileset_185
+    21300372: concrete_tileset_186
+    21300374: concrete_tileset_187
+    21300376: concrete_tileset_188
+    21300378: concrete_tileset_189
+    21300380: concrete_tileset_190
+    21300382: concrete_tileset_191
+    21300384: concrete_tileset_192
+    21300386: concrete_tileset_193
+    21300388: concrete_tileset_194
+    21300390: concrete_tileset_195
+    21300392: concrete_tileset_196
+    21300394: concrete_tileset_197
+    21300396: concrete_tileset_198
+    21300398: concrete_tileset_199
+    21300400: concrete_tileset_200
+    21300402: concrete_tileset_201
+    21300404: concrete_tileset_202
+    21300406: concrete_tileset_203
+    21300408: concrete_tileset_204
+    21300410: concrete_tileset_205
+    21300412: concrete_tileset_206
+    21300414: concrete_tileset_207
+    21300416: concrete_tileset_208
+    21300418: concrete_tileset_209
+    21300420: concrete_tileset_210
+    21300422: concrete_tileset_211
+    21300424: concrete_tileset_212
+    21300426: concrete_tileset_213
+    21300428: concrete_tileset_214
+    21300430: concrete_tileset_215
+    21300432: concrete_tileset_216
+    21300434: concrete_tileset_217
+    21300436: concrete_tileset_218
+    21300438: concrete_tileset_219
+    21300440: concrete_tileset_220
+    21300442: concrete_tileset_221
+    21300444: concrete_tileset_222
+    21300446: concrete_tileset_223
+    21300448: concrete_tileset_224
+    21300450: concrete_tileset_225
+    21300452: concrete_tileset_226
+    21300454: concrete_tileset_227
+    21300456: concrete_tileset_228
+    21300458: concrete_tileset_229
+    21300460: concrete_tileset_230
+    21300462: concrete_tileset_231
+    21300464: concrete_tileset_232
+    21300466: concrete_tileset_233
+    21300468: concrete_tileset_234
+    21300470: concrete_tileset_235
+    21300472: concrete_tileset_236
+    21300474: concrete_tileset_237
+    21300476: concrete_tileset_238
+    21300478: concrete_tileset_239
+    21300480: concrete_tileset_240
+    21300482: concrete_tileset_241
+    21300484: concrete_tileset_242
+    21300486: concrete_tileset_243
+    21300488: concrete_tileset_244
+    21300490: concrete_tileset_245
+    21300492: concrete_tileset_246
+    21300494: concrete_tileset_247
+    21300496: concrete_tileset_248
+    21300498: concrete_tileset_249
+    21300500: concrete_tileset_250
+    21300502: concrete_tileset_251
+    21300504: concrete_tileset_252
+    21300506: concrete_tileset_253
+    21300508: concrete_tileset_254
+    21300510: concrete_tileset_255
+    21300512: concrete_tileset_256
+    21300514: concrete_tileset_257
+    21300516: concrete_tileset_258
+    21300518: concrete_tileset_259
+    21300520: concrete_tileset_260
+    21300522: concrete_tileset_261
+    21300524: concrete_tileset_262
+    21300526: concrete_tileset_263
+    21300528: concrete_tileset_264
+    21300530: concrete_tileset_265
+    21300532: concrete_tileset_266
+    21300534: concrete_tileset_267
+    21300536: concrete_tileset_268
+    21300538: concrete_tileset_269
+    21300540: concrete_tileset_270
+    21300542: concrete_tileset_271
+    21300544: concrete_tileset_272
+    21300546: concrete_tileset_273
+    21300548: concrete_tileset_274
+    21300550: concrete_tileset_275
+    21300552: concrete_tileset_276
+    21300554: concrete_tileset_277
+    21300556: concrete_tileset_278
+    21300558: concrete_tileset_279
+    21300560: concrete_tileset_280
+    21300562: concrete_tileset_281
+    21300564: concrete_tileset_282
+    21300566: concrete_tileset_283
+    21300568: concrete_tileset_284
+    21300570: concrete_tileset_285
+    21300572: concrete_tileset_286
+    21300574: concrete_tileset_287
+    21300576: concrete_tileset_288
+    21300578: concrete_tileset_289
+    21300580: concrete_tileset_290
+    21300582: concrete_tileset_291
+    21300584: concrete_tileset_292
+    21300586: concrete_tileset_293
+    21300588: concrete_tileset_294
+    21300590: concrete_tileset_295
+    21300592: concrete_tileset_296
+    21300594: concrete_tileset_297
+    21300596: concrete_tileset_298
+    21300598: concrete_tileset_299
+    21300600: concrete_tileset_300
+    21300602: concrete_tileset_301
+    21300604: concrete_tileset_302
+    21300606: concrete_tileset_303
+    21300608: concrete_tileset_304
+    21300610: concrete_tileset_305
+    21300612: concrete_tileset_306
+    21300614: concrete_tileset_307
+    21300616: concrete_tileset_308
+    21300618: concrete_tileset_309
+    21300620: concrete_tileset_310
+    21300622: concrete_tileset_311
+    21300624: concrete_tileset_312
+    21300626: concrete_tileset_313
+    21300628: concrete_tileset_314
+    21300630: concrete_tileset_315
+    21300632: concrete_tileset_316
+    21300634: concrete_tileset_317
+    21300636: concrete_tileset_318
+    21300638: concrete_tileset_319
+    21300640: concrete_tileset_320
+    21300642: concrete_tileset_321
+    21300644: concrete_tileset_322
+    21300646: concrete_tileset_323
+    21300648: concrete_tileset_324
+    21300650: concrete_tileset_325
+    21300652: concrete_tileset_326
+    21300654: concrete_tileset_327
+    21300656: concrete_tileset_328
+    21300658: concrete_tileset_329
+    21300660: concrete_tileset_330
+    21300662: concrete_tileset_331
+    21300664: concrete_tileset_332
+    21300666: concrete_tileset_333
+    21300668: concrete_tileset_334
+    21300670: concrete_tileset_335
+    21300672: concrete_tileset_336
+    21300674: concrete_tileset_337
+    21300676: concrete_tileset_338
+    21300678: concrete_tileset_339
+    21300680: concrete_tileset_340
+    21300682: concrete_tileset_341
+    21300684: concrete_tileset_342
+    21300686: concrete_tileset_343
+    21300688: concrete_tileset_344
+    21300690: concrete_tileset_345
+    21300692: concrete_tileset_346
+    21300694: concrete_tileset_347
+    21300696: concrete_tileset_348
+    21300698: concrete_tileset_349
+    21300700: concrete_tileset_350
+    21300702: concrete_tileset_351
+    21300704: concrete_tileset_352
+    21300706: concrete_tileset_353
+    21300708: concrete_tileset_354
+    21300710: concrete_tileset_355
+    21300712: concrete_tileset_356
+    21300714: concrete_tileset_357
+    21300716: concrete_tileset_358
+    21300718: concrete_tileset_359
+    21300720: concrete_tileset_360
+    21300722: concrete_tileset_361
+    21300724: concrete_tileset_362
+    21300726: concrete_tileset_363
+    21300728: concrete_tileset_364
+    21300730: concrete_tileset_365
+    21300732: concrete_tileset_366
+    21300734: concrete_tileset_367
+    21300736: concrete_tileset_368
+    21300738: concrete_tileset_369
+    21300740: concrete_tileset_370
+    21300742: concrete_tileset_371
+    21300744: concrete_tileset_372
+    21300746: concrete_tileset_373
+    21300748: concrete_tileset_374
+    21300750: concrete_tileset_375
+    21300752: concrete_tileset_376
+    21300754: concrete_tileset_377
+    21300756: concrete_tileset_378
+    21300758: concrete_tileset_379
+    21300760: concrete_tileset_380
+    21300762: concrete_tileset_381
+    21300764: concrete_tileset_382
+    21300766: concrete_tileset_383
+    21300768: concrete_tileset_384
+    21300770: concrete_tileset_385
+    21300772: concrete_tileset_386
+    21300774: concrete_tileset_387
+    21300776: concrete_tileset_388
+    21300778: concrete_tileset_389
+    21300780: concrete_tileset_390
+    21300782: concrete_tileset_391
+    21300784: concrete_tileset_392
+    21300786: concrete_tileset_393
+    21300788: concrete_tileset_394
+    21300790: concrete_tileset_395
+    21300792: concrete_tileset_396
+    21300794: concrete_tileset_397
+    21300796: concrete_tileset_398
+    21300798: concrete_tileset_399
+    21300800: concrete_tileset_400
+    21300802: concrete_tileset_401
+    21300804: concrete_tileset_402
+    21300806: concrete_tileset_403
+    21300808: concrete_tileset_404
+    21300810: concrete_tileset_405
+    21300812: concrete_tileset_406
+    21300814: concrete_tileset_407
+    21300816: concrete_tileset_408
+    21300818: concrete_tileset_409
+    21300820: concrete_tileset_410
+    21300822: concrete_tileset_411
+    21300824: concrete_tileset_412
+    21300826: concrete_tileset_413
+    21300828: concrete_tileset_414
+    21300830: concrete_tileset_415
+    21300832: concrete_tileset_416
+    21300834: concrete_tileset_417
+    21300836: concrete_tileset_418
+    21300838: concrete_tileset_419
+    21300840: concrete_tileset_420
+    21300842: concrete_tileset_421
+    21300844: concrete_tileset_422
+    21300846: concrete_tileset_423
+    21300848: concrete_tileset_424
+    21300850: concrete_tileset_425
+    21300852: concrete_tileset_426
+    21300854: concrete_tileset_427
+    21300856: concrete_tileset_428
+    21300858: concrete_tileset_429
+    21300860: concrete_tileset_430
+    21300862: concrete_tileset_431
+    21300864: concrete_tileset_432
+    21300866: concrete_tileset_433
+    21300868: concrete_tileset_434
+    21300870: concrete_tileset_435
+    21300872: concrete_tileset_436
+    21300874: concrete_tileset_437
+    21300876: concrete_tileset_438
+    21300878: concrete_tileset_439
+    21300880: concrete_tileset_440
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 20
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: concrete_tileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.476196}
+        - {x: -49, y: -48.523804}
+        - {x: 49, y: -48.523804}
+        - {x: 49, y: 49.476196}
+    - name: concrete_tileset_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.476196}
+        - {x: -48.97619, y: -48.523804}
+        - {x: 50.02381, y: -48.523804}
+        - {x: 50.02381, y: 49.476196}
+    - name: concrete_tileset_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.476196}
+        - {x: -48.952377, y: -48.523804}
+        - {x: 49.047623, y: -48.523804}
+        - {x: 49.047623, y: 49.476196}
+    - name: concrete_tileset_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.476196}
+        - {x: -48.92859, y: -48.523804}
+        - {x: 50.07141, y: -48.523804}
+        - {x: 50.07141, y: 49.476196}
+    - name: concrete_tileset_4
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.476196}
+        - {x: -48.904755, y: -48.523804}
+        - {x: 49.095245, y: -48.523804}
+        - {x: 49.095245, y: 49.476196}
+    - name: concrete_tileset_5
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.476196}
+        - {x: -48.88095, y: -48.523804}
+        - {x: 50.11905, y: -48.523804}
+        - {x: 50.11905, y: 49.476196}
+    - name: concrete_tileset_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.476196}
+        - {x: -48.857178, y: -48.523804}
+        - {x: 49.142822, y: -48.523804}
+        - {x: 49.142822, y: 49.476196}
+    - name: concrete_tileset_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.476196}
+        - {x: -48.833313, y: -48.523804}
+        - {x: 50.166687, y: -48.523804}
+        - {x: 50.166687, y: 49.476196}
+    - name: concrete_tileset_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.476196}
+        - {x: -48.80951, y: -48.523804}
+        - {x: 49.19049, y: -48.523804}
+        - {x: 49.19049, y: 49.476196}
+    - name: concrete_tileset_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.476196}
+        - {x: -48.785706, y: -48.523804}
+        - {x: 50.214294, y: -48.523804}
+        - {x: 50.214294, y: 49.476196}
+    - name: concrete_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.476196}
+        - {x: -48.7619, y: -48.523804}
+        - {x: 49.2381, y: -48.523804}
+        - {x: 49.2381, y: 49.476196}
+    - name: concrete_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.476196}
+        - {x: -48.73816, y: -48.523804}
+        - {x: 50.26184, y: -48.523804}
+        - {x: 50.26184, y: 49.476196}
+    - name: concrete_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.476196}
+        - {x: -48.714355, y: -48.523804}
+        - {x: 49.285645, y: -48.523804}
+        - {x: 49.285645, y: 49.476196}
+    - name: concrete_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.476196}
+        - {x: -48.69043, y: -48.523804}
+        - {x: 50.30957, y: -48.523804}
+        - {x: 50.30957, y: 49.476196}
+    - name: concrete_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.476196}
+        - {x: -48.666626, y: -48.523804}
+        - {x: 49.333374, y: -48.523804}
+        - {x: 49.333374, y: 49.476196}
+    - name: concrete_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.476196}
+        - {x: -48.642822, y: -48.523804}
+        - {x: 50.357178, y: -48.523804}
+        - {x: 50.357178, y: 49.476196}
+    - name: concrete_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.476196}
+        - {x: -48.61902, y: -48.523804}
+        - {x: 49.38098, y: -48.523804}
+        - {x: 49.38098, y: 49.476196}
+    - name: concrete_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.476196}
+        - {x: -48.595215, y: -48.523804}
+        - {x: 50.404785, y: -48.523804}
+        - {x: 50.404785, y: 49.476196}
+    - name: concrete_tileset_18
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.476196}
+        - {x: -48.57141, y: -48.523804}
+        - {x: 49.42859, y: -48.523804}
+        - {x: 49.42859, y: 49.476196}
+    - name: concrete_tileset_19
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.476196}
+        - {x: -48.547607, y: -48.523804}
+        - {x: 50.452393, y: -48.523804}
+        - {x: 50.452393, y: 49.476196}
+    - name: concrete_tileset_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.476196}
+        - {x: -48.523804, y: -48.523804}
+        - {x: 49.476196, y: -48.523804}
+        - {x: 49.476196, y: 49.476196}
+    - name: concrete_tileset_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.452393}
+        - {x: -49, y: -48.547607}
+        - {x: 49, y: -48.547607}
+        - {x: 49, y: 50.452393}
+    - name: concrete_tileset_22
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.452393}
+        - {x: -48.97619, y: -48.547607}
+        - {x: 50.02381, y: -48.547607}
+        - {x: 50.02381, y: 50.452393}
+    - name: concrete_tileset_23
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.452393}
+        - {x: -48.952377, y: -48.547607}
+        - {x: 49.047623, y: -48.547607}
+        - {x: 49.047623, y: 50.452393}
+    - name: concrete_tileset_24
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.452393}
+        - {x: -48.92859, y: -48.547607}
+        - {x: 50.07141, y: -48.547607}
+        - {x: 50.07141, y: 50.452393}
+    - name: concrete_tileset_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.452393}
+        - {x: -48.904755, y: -48.547607}
+        - {x: 49.095245, y: -48.547607}
+        - {x: 49.095245, y: 50.452393}
+    - name: concrete_tileset_26
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.452393}
+        - {x: -48.88095, y: -48.547607}
+        - {x: 50.11905, y: -48.547607}
+        - {x: 50.11905, y: 50.452393}
+    - name: concrete_tileset_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.452393}
+        - {x: -48.857178, y: -48.547607}
+        - {x: 49.142822, y: -48.547607}
+        - {x: 49.142822, y: 50.452393}
+    - name: concrete_tileset_28
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.452393}
+        - {x: -48.833313, y: -48.547607}
+        - {x: 50.166687, y: -48.547607}
+        - {x: 50.166687, y: 50.452393}
+    - name: concrete_tileset_29
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.452393}
+        - {x: -48.80951, y: -48.547607}
+        - {x: 49.19049, y: -48.547607}
+        - {x: 49.19049, y: 50.452393}
+    - name: concrete_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.452393}
+        - {x: -48.785706, y: -48.547607}
+        - {x: 50.214294, y: -48.547607}
+        - {x: 50.214294, y: 50.452393}
+    - name: concrete_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.452393}
+        - {x: -48.7619, y: -48.547607}
+        - {x: 49.2381, y: -48.547607}
+        - {x: 49.2381, y: 50.452393}
+    - name: concrete_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.452393}
+        - {x: -48.73816, y: -48.547607}
+        - {x: 50.26184, y: -48.547607}
+        - {x: 50.26184, y: 50.452393}
+    - name: concrete_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.452393}
+        - {x: -48.714355, y: -48.547607}
+        - {x: 49.285645, y: -48.547607}
+        - {x: 49.285645, y: 50.452393}
+    - name: concrete_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.452393}
+        - {x: -48.69043, y: -48.547607}
+        - {x: 50.30957, y: -48.547607}
+        - {x: 50.30957, y: 50.452393}
+    - name: concrete_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.452393}
+        - {x: -48.666626, y: -48.547607}
+        - {x: 49.333374, y: -48.547607}
+        - {x: 49.333374, y: 50.452393}
+    - name: concrete_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.452393}
+        - {x: -48.642822, y: -48.547607}
+        - {x: 50.357178, y: -48.547607}
+        - {x: 50.357178, y: 50.452393}
+    - name: concrete_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.452393}
+        - {x: -48.61902, y: -48.547607}
+        - {x: 49.38098, y: -48.547607}
+        - {x: 49.38098, y: 50.452393}
+    - name: concrete_tileset_38
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.452393}
+        - {x: -48.595215, y: -48.547607}
+        - {x: 50.404785, y: -48.547607}
+        - {x: 50.404785, y: 50.452393}
+    - name: concrete_tileset_39
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.452393}
+        - {x: -48.57141, y: -48.547607}
+        - {x: 49.42859, y: -48.547607}
+        - {x: 49.42859, y: 50.452393}
+    - name: concrete_tileset_40
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.452393}
+        - {x: -48.547607, y: -48.547607}
+        - {x: 50.452393, y: -48.547607}
+        - {x: 50.452393, y: 50.452393}
+    - name: concrete_tileset_41
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.452393}
+        - {x: -48.523804, y: -48.547607}
+        - {x: 49.476196, y: -48.547607}
+        - {x: 49.476196, y: 50.452393}
+    - name: concrete_tileset_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.42859}
+        - {x: -49, y: -48.57141}
+        - {x: 49, y: -48.57141}
+        - {x: 49, y: 49.42859}
+    - name: concrete_tileset_43
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.42859}
+        - {x: -48.97619, y: -48.57141}
+        - {x: 50.02381, y: -48.57141}
+        - {x: 50.02381, y: 49.42859}
+    - name: concrete_tileset_44
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.42859}
+        - {x: -48.952377, y: -48.57141}
+        - {x: 49.047623, y: -48.57141}
+        - {x: 49.047623, y: 49.42859}
+    - name: concrete_tileset_45
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.42859}
+        - {x: -48.92859, y: -48.57141}
+        - {x: 50.07141, y: -48.57141}
+        - {x: 50.07141, y: 49.42859}
+    - name: concrete_tileset_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.42859}
+        - {x: -48.904755, y: -48.57141}
+        - {x: 49.095245, y: -48.57141}
+        - {x: 49.095245, y: 49.42859}
+    - name: concrete_tileset_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.42859}
+        - {x: -48.88095, y: -48.57141}
+        - {x: 50.11905, y: -48.57141}
+        - {x: 50.11905, y: 49.42859}
+    - name: concrete_tileset_48
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.42859}
+        - {x: -48.857178, y: -48.57141}
+        - {x: 49.142822, y: -48.57141}
+        - {x: 49.142822, y: 49.42859}
+    - name: concrete_tileset_49
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.42859}
+        - {x: -48.833313, y: -48.57141}
+        - {x: 50.166687, y: -48.57141}
+        - {x: 50.166687, y: 49.42859}
+    - name: concrete_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.42859}
+        - {x: -48.80951, y: -48.57141}
+        - {x: 49.19049, y: -48.57141}
+        - {x: 49.19049, y: 49.42859}
+    - name: concrete_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.42859}
+        - {x: -48.785706, y: -48.57141}
+        - {x: 50.214294, y: -48.57141}
+        - {x: 50.214294, y: 49.42859}
+    - name: concrete_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.42859}
+        - {x: -48.7619, y: -48.57141}
+        - {x: 49.2381, y: -48.57141}
+        - {x: 49.2381, y: 49.42859}
+    - name: concrete_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.42859}
+        - {x: -48.73816, y: -48.57141}
+        - {x: 50.26184, y: -48.57141}
+        - {x: 50.26184, y: 49.42859}
+    - name: concrete_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.42859}
+        - {x: -48.714355, y: -48.57141}
+        - {x: 49.285645, y: -48.57141}
+        - {x: 49.285645, y: 49.42859}
+    - name: concrete_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.42859}
+        - {x: -48.69043, y: -48.57141}
+        - {x: 50.30957, y: -48.57141}
+        - {x: 50.30957, y: 49.42859}
+    - name: concrete_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.42859}
+        - {x: -48.666626, y: -48.57141}
+        - {x: 49.333374, y: -48.57141}
+        - {x: 49.333374, y: 49.42859}
+    - name: concrete_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.42859}
+        - {x: -48.642822, y: -48.57141}
+        - {x: 50.357178, y: -48.57141}
+        - {x: 50.357178, y: 49.42859}
+    - name: concrete_tileset_58
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.42859}
+        - {x: -48.61902, y: -48.57141}
+        - {x: 49.38098, y: -48.57141}
+        - {x: 49.38098, y: 49.42859}
+    - name: concrete_tileset_59
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.42859}
+        - {x: -48.595215, y: -48.57141}
+        - {x: 50.404785, y: -48.57141}
+        - {x: 50.404785, y: 49.42859}
+    - name: concrete_tileset_60
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.42859}
+        - {x: -48.57141, y: -48.57141}
+        - {x: 49.42859, y: -48.57141}
+        - {x: 49.42859, y: 49.42859}
+    - name: concrete_tileset_61
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.42859}
+        - {x: -48.547607, y: -48.57141}
+        - {x: 50.452393, y: -48.57141}
+        - {x: 50.452393, y: 49.42859}
+    - name: concrete_tileset_62
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.42859}
+        - {x: -48.523804, y: -48.57141}
+        - {x: 49.476196, y: -48.57141}
+        - {x: 49.476196, y: 49.42859}
+    - name: concrete_tileset_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.404785}
+        - {x: -49, y: -48.595215}
+        - {x: 49, y: -48.595215}
+        - {x: 49, y: 50.404785}
+    - name: concrete_tileset_64
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.404785}
+        - {x: -48.97619, y: -48.595215}
+        - {x: 50.02381, y: -48.595215}
+        - {x: 50.02381, y: 50.404785}
+    - name: concrete_tileset_65
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.404785}
+        - {x: -48.952377, y: -48.595215}
+        - {x: 49.047623, y: -48.595215}
+        - {x: 49.047623, y: 50.404785}
+    - name: concrete_tileset_66
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.404785}
+        - {x: -48.92859, y: -48.595215}
+        - {x: 50.07141, y: -48.595215}
+        - {x: 50.07141, y: 50.404785}
+    - name: concrete_tileset_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.404785}
+        - {x: -48.904755, y: -48.595215}
+        - {x: 49.095245, y: -48.595215}
+        - {x: 49.095245, y: 50.404785}
+    - name: concrete_tileset_68
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.404785}
+        - {x: -48.88095, y: -48.595215}
+        - {x: 50.11905, y: -48.595215}
+        - {x: 50.11905, y: 50.404785}
+    - name: concrete_tileset_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.404785}
+        - {x: -48.857178, y: -48.595215}
+        - {x: 49.142822, y: -48.595215}
+        - {x: 49.142822, y: 50.404785}
+    - name: concrete_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.404785}
+        - {x: -48.833313, y: -48.595215}
+        - {x: 50.166687, y: -48.595215}
+        - {x: 50.166687, y: 50.404785}
+    - name: concrete_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.404785}
+        - {x: -48.80951, y: -48.595215}
+        - {x: 49.19049, y: -48.595215}
+        - {x: 49.19049, y: 50.404785}
+    - name: concrete_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.404785}
+        - {x: -48.785706, y: -48.595215}
+        - {x: 50.214294, y: -48.595215}
+        - {x: 50.214294, y: 50.404785}
+    - name: concrete_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.404785}
+        - {x: -48.7619, y: -48.595215}
+        - {x: 49.2381, y: -48.595215}
+        - {x: 49.2381, y: 50.404785}
+    - name: concrete_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.404785}
+        - {x: -48.73816, y: -48.595215}
+        - {x: 50.26184, y: -48.595215}
+        - {x: 50.26184, y: 50.404785}
+    - name: concrete_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.404785}
+        - {x: -48.714355, y: -48.595215}
+        - {x: 49.285645, y: -48.595215}
+        - {x: 49.285645, y: 50.404785}
+    - name: concrete_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.404785}
+        - {x: -48.69043, y: -48.595215}
+        - {x: 50.30957, y: -48.595215}
+        - {x: 50.30957, y: 50.404785}
+    - name: concrete_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.404785}
+        - {x: -48.666626, y: -48.595215}
+        - {x: 49.333374, y: -48.595215}
+        - {x: 49.333374, y: 50.404785}
+    - name: concrete_tileset_78
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.404785}
+        - {x: -48.642822, y: -48.595215}
+        - {x: 50.357178, y: -48.595215}
+        - {x: 50.357178, y: 50.404785}
+    - name: concrete_tileset_79
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.404785}
+        - {x: -48.61902, y: -48.595215}
+        - {x: 49.38098, y: -48.595215}
+        - {x: 49.38098, y: 50.404785}
+    - name: concrete_tileset_80
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.404785}
+        - {x: -48.595215, y: -48.595215}
+        - {x: 50.404785, y: -48.595215}
+        - {x: 50.404785, y: 50.404785}
+    - name: concrete_tileset_81
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.404785}
+        - {x: -48.57141, y: -48.595215}
+        - {x: 49.42859, y: -48.595215}
+        - {x: 49.42859, y: 50.404785}
+    - name: concrete_tileset_82
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.404785}
+        - {x: -48.547607, y: -48.595215}
+        - {x: 50.452393, y: -48.595215}
+        - {x: 50.452393, y: 50.404785}
+    - name: concrete_tileset_83
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.404785}
+        - {x: -48.523804, y: -48.595215}
+        - {x: 49.476196, y: -48.595215}
+        - {x: 49.476196, y: 50.404785}
+    - name: concrete_tileset_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.38098}
+        - {x: -49, y: -48.61902}
+        - {x: 49, y: -48.61902}
+        - {x: 49, y: 49.38098}
+    - name: concrete_tileset_85
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.38098}
+        - {x: -48.97619, y: -48.61902}
+        - {x: 50.02381, y: -48.61902}
+        - {x: 50.02381, y: 49.38098}
+    - name: concrete_tileset_86
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.38098}
+        - {x: -48.952377, y: -48.61902}
+        - {x: 49.047623, y: -48.61902}
+        - {x: 49.047623, y: 49.38098}
+    - name: concrete_tileset_87
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.38098}
+        - {x: -48.92859, y: -48.61902}
+        - {x: 50.07141, y: -48.61902}
+        - {x: 50.07141, y: 49.38098}
+    - name: concrete_tileset_88
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.38098}
+        - {x: -48.904755, y: -48.61902}
+        - {x: 49.095245, y: -48.61902}
+        - {x: 49.095245, y: 49.38098}
+    - name: concrete_tileset_89
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.38098}
+        - {x: -48.88095, y: -48.61902}
+        - {x: 50.11905, y: -48.61902}
+        - {x: 50.11905, y: 49.38098}
+    - name: concrete_tileset_90
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.38098}
+        - {x: -48.857178, y: -48.61902}
+        - {x: 49.142822, y: -48.61902}
+        - {x: 49.142822, y: 49.38098}
+    - name: concrete_tileset_91
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.38098}
+        - {x: -48.833313, y: -48.61902}
+        - {x: 50.166687, y: -48.61902}
+        - {x: 50.166687, y: 49.38098}
+    - name: concrete_tileset_92
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.38098}
+        - {x: -48.80951, y: -48.61902}
+        - {x: 49.19049, y: -48.61902}
+        - {x: 49.19049, y: 49.38098}
+    - name: concrete_tileset_93
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.38098}
+        - {x: -48.785706, y: -48.61902}
+        - {x: 50.214294, y: -48.61902}
+        - {x: 50.214294, y: 49.38098}
+    - name: concrete_tileset_94
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.38098}
+        - {x: -48.7619, y: -48.61902}
+        - {x: 49.2381, y: -48.61902}
+        - {x: 49.2381, y: 49.38098}
+    - name: concrete_tileset_95
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.38098}
+        - {x: -48.73816, y: -48.61902}
+        - {x: 50.26184, y: -48.61902}
+        - {x: 50.26184, y: 49.38098}
+    - name: concrete_tileset_96
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.38098}
+        - {x: -48.714355, y: -48.61902}
+        - {x: 49.285645, y: -48.61902}
+        - {x: 49.285645, y: 49.38098}
+    - name: concrete_tileset_97
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.38098}
+        - {x: -48.69043, y: -48.61902}
+        - {x: 50.30957, y: -48.61902}
+        - {x: 50.30957, y: 49.38098}
+    - name: concrete_tileset_98
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.38098}
+        - {x: -48.666626, y: -48.61902}
+        - {x: 49.333374, y: -48.61902}
+        - {x: 49.333374, y: 49.38098}
+    - name: concrete_tileset_99
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.38098}
+        - {x: -48.642822, y: -48.61902}
+        - {x: 50.357178, y: -48.61902}
+        - {x: 50.357178, y: 49.38098}
+    - name: concrete_tileset_100
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.38098}
+        - {x: -48.61902, y: -48.61902}
+        - {x: 49.38098, y: -48.61902}
+        - {x: 49.38098, y: 49.38098}
+    - name: concrete_tileset_101
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.38098}
+        - {x: -48.595215, y: -48.61902}
+        - {x: 50.404785, y: -48.61902}
+        - {x: 50.404785, y: 49.38098}
+    - name: concrete_tileset_102
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.38098}
+        - {x: -48.57141, y: -48.61902}
+        - {x: 49.42859, y: -48.61902}
+        - {x: 49.42859, y: 49.38098}
+    - name: concrete_tileset_103
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.38098}
+        - {x: -48.547607, y: -48.61902}
+        - {x: 50.452393, y: -48.61902}
+        - {x: 50.452393, y: 49.38098}
+    - name: concrete_tileset_104
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.38098}
+        - {x: -48.523804, y: -48.61902}
+        - {x: 49.476196, y: -48.61902}
+        - {x: 49.476196, y: 49.38098}
+    - name: concrete_tileset_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.357178}
+        - {x: -49, y: -48.642822}
+        - {x: 49, y: -48.642822}
+        - {x: 49, y: 50.357178}
+    - name: concrete_tileset_106
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.357178}
+        - {x: -48.97619, y: -48.642822}
+        - {x: 50.02381, y: -48.642822}
+        - {x: 50.02381, y: 50.357178}
+    - name: concrete_tileset_107
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.357178}
+        - {x: -48.952377, y: -48.642822}
+        - {x: 49.047623, y: -48.642822}
+        - {x: 49.047623, y: 50.357178}
+    - name: concrete_tileset_108
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.357178}
+        - {x: -48.92859, y: -48.642822}
+        - {x: 50.07141, y: -48.642822}
+        - {x: 50.07141, y: 50.357178}
+    - name: concrete_tileset_109
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.357178}
+        - {x: -48.904755, y: -48.642822}
+        - {x: 49.095245, y: -48.642822}
+        - {x: 49.095245, y: 50.357178}
+    - name: concrete_tileset_110
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.357178}
+        - {x: -48.88095, y: -48.642822}
+        - {x: 50.11905, y: -48.642822}
+        - {x: 50.11905, y: 50.357178}
+    - name: concrete_tileset_111
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.357178}
+        - {x: -48.857178, y: -48.642822}
+        - {x: 49.142822, y: -48.642822}
+        - {x: 49.142822, y: 50.357178}
+    - name: concrete_tileset_112
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.357178}
+        - {x: -48.833313, y: -48.642822}
+        - {x: 50.166687, y: -48.642822}
+        - {x: 50.166687, y: 50.357178}
+    - name: concrete_tileset_113
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.357178}
+        - {x: -48.80951, y: -48.642822}
+        - {x: 49.19049, y: -48.642822}
+        - {x: 49.19049, y: 50.357178}
+    - name: concrete_tileset_114
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.357178}
+        - {x: -48.785706, y: -48.642822}
+        - {x: 50.214294, y: -48.642822}
+        - {x: 50.214294, y: 50.357178}
+    - name: concrete_tileset_115
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.357178}
+        - {x: -48.7619, y: -48.642822}
+        - {x: 49.2381, y: -48.642822}
+        - {x: 49.2381, y: 50.357178}
+    - name: concrete_tileset_116
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.357178}
+        - {x: -48.73816, y: -48.642822}
+        - {x: 50.26184, y: -48.642822}
+        - {x: 50.26184, y: 50.357178}
+    - name: concrete_tileset_117
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.357178}
+        - {x: -48.714355, y: -48.642822}
+        - {x: 49.285645, y: -48.642822}
+        - {x: 49.285645, y: 50.357178}
+    - name: concrete_tileset_118
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.357178}
+        - {x: -48.69043, y: -48.642822}
+        - {x: 50.30957, y: -48.642822}
+        - {x: 50.30957, y: 50.357178}
+    - name: concrete_tileset_119
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.357178}
+        - {x: -48.666626, y: -48.642822}
+        - {x: 49.333374, y: -48.642822}
+        - {x: 49.333374, y: 50.357178}
+    - name: concrete_tileset_120
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.357178}
+        - {x: -48.642822, y: -48.642822}
+        - {x: 50.357178, y: -48.642822}
+        - {x: 50.357178, y: 50.357178}
+    - name: concrete_tileset_121
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.357178}
+        - {x: -48.61902, y: -48.642822}
+        - {x: 49.38098, y: -48.642822}
+        - {x: 49.38098, y: 50.357178}
+    - name: concrete_tileset_122
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.357178}
+        - {x: -48.595215, y: -48.642822}
+        - {x: 50.404785, y: -48.642822}
+        - {x: 50.404785, y: 50.357178}
+    - name: concrete_tileset_123
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.357178}
+        - {x: -48.57141, y: -48.642822}
+        - {x: 49.42859, y: -48.642822}
+        - {x: 49.42859, y: 50.357178}
+    - name: concrete_tileset_124
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.357178}
+        - {x: -48.547607, y: -48.642822}
+        - {x: 50.452393, y: -48.642822}
+        - {x: 50.452393, y: 50.357178}
+    - name: concrete_tileset_125
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.357178}
+        - {x: -48.523804, y: -48.642822}
+        - {x: 49.476196, y: -48.642822}
+        - {x: 49.476196, y: 50.357178}
+    - name: concrete_tileset_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.333374}
+        - {x: -49, y: -48.666626}
+        - {x: 49, y: -48.666626}
+        - {x: 49, y: 49.333374}
+    - name: concrete_tileset_127
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.333374}
+        - {x: -48.97619, y: -48.666626}
+        - {x: 50.02381, y: -48.666626}
+        - {x: 50.02381, y: 49.333374}
+    - name: concrete_tileset_128
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.333374}
+        - {x: -48.952377, y: -48.666626}
+        - {x: 49.047623, y: -48.666626}
+        - {x: 49.047623, y: 49.333374}
+    - name: concrete_tileset_129
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.333374}
+        - {x: -48.92859, y: -48.666626}
+        - {x: 50.07141, y: -48.666626}
+        - {x: 50.07141, y: 49.333374}
+    - name: concrete_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.333374}
+        - {x: -48.904755, y: -48.666626}
+        - {x: 49.095245, y: -48.666626}
+        - {x: 49.095245, y: 49.333374}
+    - name: concrete_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.333374}
+        - {x: -48.88095, y: -48.666626}
+        - {x: 50.11905, y: -48.666626}
+        - {x: 50.11905, y: 49.333374}
+    - name: concrete_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.333374}
+        - {x: -48.857178, y: -48.666626}
+        - {x: 49.142822, y: -48.666626}
+        - {x: 49.142822, y: 49.333374}
+    - name: concrete_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.333374}
+        - {x: -48.833313, y: -48.666626}
+        - {x: 50.166687, y: -48.666626}
+        - {x: 50.166687, y: 49.333374}
+    - name: concrete_tileset_134
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.333374}
+        - {x: -48.80951, y: -48.666626}
+        - {x: 49.19049, y: -48.666626}
+        - {x: 49.19049, y: 49.333374}
+    - name: concrete_tileset_135
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.333374}
+        - {x: -48.785706, y: -48.666626}
+        - {x: 50.214294, y: -48.666626}
+        - {x: 50.214294, y: 49.333374}
+    - name: concrete_tileset_136
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.333374}
+        - {x: -48.7619, y: -48.666626}
+        - {x: 49.2381, y: -48.666626}
+        - {x: 49.2381, y: 49.333374}
+    - name: concrete_tileset_137
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.333374}
+        - {x: -48.73816, y: -48.666626}
+        - {x: 50.26184, y: -48.666626}
+        - {x: 50.26184, y: 49.333374}
+    - name: concrete_tileset_138
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.333374}
+        - {x: -48.714355, y: -48.666626}
+        - {x: 49.285645, y: -48.666626}
+        - {x: 49.285645, y: 49.333374}
+    - name: concrete_tileset_139
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.333374}
+        - {x: -48.69043, y: -48.666626}
+        - {x: 50.30957, y: -48.666626}
+        - {x: 50.30957, y: 49.333374}
+    - name: concrete_tileset_140
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.333374}
+        - {x: -48.666626, y: -48.666626}
+        - {x: 49.333374, y: -48.666626}
+        - {x: 49.333374, y: 49.333374}
+    - name: concrete_tileset_141
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.333374}
+        - {x: -48.642822, y: -48.666626}
+        - {x: 50.357178, y: -48.666626}
+        - {x: 50.357178, y: 49.333374}
+    - name: concrete_tileset_142
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.333374}
+        - {x: -48.61902, y: -48.666626}
+        - {x: 49.38098, y: -48.666626}
+        - {x: 49.38098, y: 49.333374}
+    - name: concrete_tileset_143
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.333374}
+        - {x: -48.595215, y: -48.666626}
+        - {x: 50.404785, y: -48.666626}
+        - {x: 50.404785, y: 49.333374}
+    - name: concrete_tileset_144
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.333374}
+        - {x: -48.57141, y: -48.666626}
+        - {x: 49.42859, y: -48.666626}
+        - {x: 49.42859, y: 49.333374}
+    - name: concrete_tileset_145
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.333374}
+        - {x: -48.547607, y: -48.666626}
+        - {x: 50.452393, y: -48.666626}
+        - {x: 50.452393, y: 49.333374}
+    - name: concrete_tileset_146
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.333374}
+        - {x: -48.523804, y: -48.666626}
+        - {x: 49.476196, y: -48.666626}
+        - {x: 49.476196, y: 49.333374}
+    - name: concrete_tileset_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.30957}
+        - {x: -49, y: -48.69043}
+        - {x: 49, y: -48.69043}
+        - {x: 49, y: 50.30957}
+    - name: concrete_tileset_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.30957}
+        - {x: -48.97619, y: -48.69043}
+        - {x: 50.02381, y: -48.69043}
+        - {x: 50.02381, y: 50.30957}
+    - name: concrete_tileset_149
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.30957}
+        - {x: -48.952377, y: -48.69043}
+        - {x: 49.047623, y: -48.69043}
+        - {x: 49.047623, y: 50.30957}
+    - name: concrete_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.30957}
+        - {x: -48.92859, y: -48.69043}
+        - {x: 50.07141, y: -48.69043}
+        - {x: 50.07141, y: 50.30957}
+    - name: concrete_tileset_151
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.30957}
+        - {x: -48.904755, y: -48.69043}
+        - {x: 49.095245, y: -48.69043}
+        - {x: 49.095245, y: 50.30957}
+    - name: concrete_tileset_152
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.30957}
+        - {x: -48.88095, y: -48.69043}
+        - {x: 50.11905, y: -48.69043}
+        - {x: 50.11905, y: 50.30957}
+    - name: concrete_tileset_153
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.30957}
+        - {x: -48.857178, y: -48.69043}
+        - {x: 49.142822, y: -48.69043}
+        - {x: 49.142822, y: 50.30957}
+    - name: concrete_tileset_154
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.30957}
+        - {x: -48.833313, y: -48.69043}
+        - {x: 50.166687, y: -48.69043}
+        - {x: 50.166687, y: 50.30957}
+    - name: concrete_tileset_155
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.30957}
+        - {x: -48.80951, y: -48.69043}
+        - {x: 49.19049, y: -48.69043}
+        - {x: 49.19049, y: 50.30957}
+    - name: concrete_tileset_156
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.30957}
+        - {x: -48.785706, y: -48.69043}
+        - {x: 50.214294, y: -48.69043}
+        - {x: 50.214294, y: 50.30957}
+    - name: concrete_tileset_157
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.30957}
+        - {x: -48.7619, y: -48.69043}
+        - {x: 49.2381, y: -48.69043}
+        - {x: 49.2381, y: 50.30957}
+    - name: concrete_tileset_158
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.30957}
+        - {x: -48.73816, y: -48.69043}
+        - {x: 50.26184, y: -48.69043}
+        - {x: 50.26184, y: 50.30957}
+    - name: concrete_tileset_159
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.30957}
+        - {x: -48.714355, y: -48.69043}
+        - {x: 49.285645, y: -48.69043}
+        - {x: 49.285645, y: 50.30957}
+    - name: concrete_tileset_160
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.30957}
+        - {x: -48.69043, y: -48.69043}
+        - {x: 50.30957, y: -48.69043}
+        - {x: 50.30957, y: 50.30957}
+    - name: concrete_tileset_161
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.30957}
+        - {x: -48.666626, y: -48.69043}
+        - {x: 49.333374, y: -48.69043}
+        - {x: 49.333374, y: 50.30957}
+    - name: concrete_tileset_162
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.30957}
+        - {x: -48.642822, y: -48.69043}
+        - {x: 50.357178, y: -48.69043}
+        - {x: 50.357178, y: 50.30957}
+    - name: concrete_tileset_163
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.30957}
+        - {x: -48.61902, y: -48.69043}
+        - {x: 49.38098, y: -48.69043}
+        - {x: 49.38098, y: 50.30957}
+    - name: concrete_tileset_164
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.30957}
+        - {x: -48.595215, y: -48.69043}
+        - {x: 50.404785, y: -48.69043}
+        - {x: 50.404785, y: 50.30957}
+    - name: concrete_tileset_165
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.30957}
+        - {x: -48.57141, y: -48.69043}
+        - {x: 49.42859, y: -48.69043}
+        - {x: 49.42859, y: 50.30957}
+    - name: concrete_tileset_166
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.30957}
+        - {x: -48.547607, y: -48.69043}
+        - {x: 50.452393, y: -48.69043}
+        - {x: 50.452393, y: 50.30957}
+    - name: concrete_tileset_167
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.30957}
+        - {x: -48.523804, y: -48.69043}
+        - {x: 49.476196, y: -48.69043}
+        - {x: 49.476196, y: 50.30957}
+    - name: concrete_tileset_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.285645}
+        - {x: -49, y: -48.714355}
+        - {x: 49, y: -48.714355}
+        - {x: 49, y: 49.285645}
+    - name: concrete_tileset_169
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.285645}
+        - {x: -48.97619, y: -48.714355}
+        - {x: 50.02381, y: -48.714355}
+        - {x: 50.02381, y: 49.285645}
+    - name: concrete_tileset_170
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.285645}
+        - {x: -48.952377, y: -48.714355}
+        - {x: 49.047623, y: -48.714355}
+        - {x: 49.047623, y: 49.285645}
+    - name: concrete_tileset_171
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.285645}
+        - {x: -48.92859, y: -48.714355}
+        - {x: 50.07141, y: -48.714355}
+        - {x: 50.07141, y: 49.285645}
+    - name: concrete_tileset_172
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.285645}
+        - {x: -48.904755, y: -48.714355}
+        - {x: 49.095245, y: -48.714355}
+        - {x: 49.095245, y: 49.285645}
+    - name: concrete_tileset_173
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.285645}
+        - {x: -48.88095, y: -48.714355}
+        - {x: 50.11905, y: -48.714355}
+        - {x: 50.11905, y: 49.285645}
+    - name: concrete_tileset_174
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.285645}
+        - {x: -48.857178, y: -48.714355}
+        - {x: 49.142822, y: -48.714355}
+        - {x: 49.142822, y: 49.285645}
+    - name: concrete_tileset_175
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.285645}
+        - {x: -48.833313, y: -48.714355}
+        - {x: 50.166687, y: -48.714355}
+        - {x: 50.166687, y: 49.285645}
+    - name: concrete_tileset_176
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.285645}
+        - {x: -48.80951, y: -48.714355}
+        - {x: 49.19049, y: -48.714355}
+        - {x: 49.19049, y: 49.285645}
+    - name: concrete_tileset_177
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.285645}
+        - {x: -48.785706, y: -48.714355}
+        - {x: 50.214294, y: -48.714355}
+        - {x: 50.214294, y: 49.285645}
+    - name: concrete_tileset_178
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.285645}
+        - {x: -48.7619, y: -48.714355}
+        - {x: 49.2381, y: -48.714355}
+        - {x: 49.2381, y: 49.285645}
+    - name: concrete_tileset_179
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.285645}
+        - {x: -48.73816, y: -48.714355}
+        - {x: 50.26184, y: -48.714355}
+        - {x: 50.26184, y: 49.285645}
+    - name: concrete_tileset_180
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.285645}
+        - {x: -48.714355, y: -48.714355}
+        - {x: 49.285645, y: -48.714355}
+        - {x: 49.285645, y: 49.285645}
+    - name: concrete_tileset_181
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.285645}
+        - {x: -48.69043, y: -48.714355}
+        - {x: 50.30957, y: -48.714355}
+        - {x: 50.30957, y: 49.285645}
+    - name: concrete_tileset_182
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.285645}
+        - {x: -48.666626, y: -48.714355}
+        - {x: 49.333374, y: -48.714355}
+        - {x: 49.333374, y: 49.285645}
+    - name: concrete_tileset_183
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.285645}
+        - {x: -48.642822, y: -48.714355}
+        - {x: 50.357178, y: -48.714355}
+        - {x: 50.357178, y: 49.285645}
+    - name: concrete_tileset_184
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.285645}
+        - {x: -48.61902, y: -48.714355}
+        - {x: 49.38098, y: -48.714355}
+        - {x: 49.38098, y: 49.285645}
+    - name: concrete_tileset_185
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.285645}
+        - {x: -48.595215, y: -48.714355}
+        - {x: 50.404785, y: -48.714355}
+        - {x: 50.404785, y: 49.285645}
+    - name: concrete_tileset_186
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.285645}
+        - {x: -48.57141, y: -48.714355}
+        - {x: 49.42859, y: -48.714355}
+        - {x: 49.42859, y: 49.285645}
+    - name: concrete_tileset_187
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.285645}
+        - {x: -48.547607, y: -48.714355}
+        - {x: 50.452393, y: -48.714355}
+        - {x: 50.452393, y: 49.285645}
+    - name: concrete_tileset_188
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.285645}
+        - {x: -48.523804, y: -48.714355}
+        - {x: 49.476196, y: -48.714355}
+        - {x: 49.476196, y: 49.285645}
+    - name: concrete_tileset_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.26184}
+        - {x: -49, y: -48.73816}
+        - {x: 49, y: -48.73816}
+        - {x: 49, y: 50.26184}
+    - name: concrete_tileset_190
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.26184}
+        - {x: -48.97619, y: -48.73816}
+        - {x: 50.02381, y: -48.73816}
+        - {x: 50.02381, y: 50.26184}
+    - name: concrete_tileset_191
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.26184}
+        - {x: -48.952377, y: -48.73816}
+        - {x: 49.047623, y: -48.73816}
+        - {x: 49.047623, y: 50.26184}
+    - name: concrete_tileset_192
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.26184}
+        - {x: -48.92859, y: -48.73816}
+        - {x: 50.07141, y: -48.73816}
+        - {x: 50.07141, y: 50.26184}
+    - name: concrete_tileset_193
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.26184}
+        - {x: -48.904755, y: -48.73816}
+        - {x: 49.095245, y: -48.73816}
+        - {x: 49.095245, y: 50.26184}
+    - name: concrete_tileset_194
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.26184}
+        - {x: -48.88095, y: -48.73816}
+        - {x: 50.11905, y: -48.73816}
+        - {x: 50.11905, y: 50.26184}
+    - name: concrete_tileset_195
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.26184}
+        - {x: -48.857178, y: -48.73816}
+        - {x: 49.142822, y: -48.73816}
+        - {x: 49.142822, y: 50.26184}
+    - name: concrete_tileset_196
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.26184}
+        - {x: -48.833313, y: -48.73816}
+        - {x: 50.166687, y: -48.73816}
+        - {x: 50.166687, y: 50.26184}
+    - name: concrete_tileset_197
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.26184}
+        - {x: -48.80951, y: -48.73816}
+        - {x: 49.19049, y: -48.73816}
+        - {x: 49.19049, y: 50.26184}
+    - name: concrete_tileset_198
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.26184}
+        - {x: -48.785706, y: -48.73816}
+        - {x: 50.214294, y: -48.73816}
+        - {x: 50.214294, y: 50.26184}
+    - name: concrete_tileset_199
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.26184}
+        - {x: -48.7619, y: -48.73816}
+        - {x: 49.2381, y: -48.73816}
+        - {x: 49.2381, y: 50.26184}
+    - name: concrete_tileset_200
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.26184}
+        - {x: -48.73816, y: -48.73816}
+        - {x: 50.26184, y: -48.73816}
+        - {x: 50.26184, y: 50.26184}
+    - name: concrete_tileset_201
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.26184}
+        - {x: -48.714355, y: -48.73816}
+        - {x: 49.285645, y: -48.73816}
+        - {x: 49.285645, y: 50.26184}
+    - name: concrete_tileset_202
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.26184}
+        - {x: -48.69043, y: -48.73816}
+        - {x: 50.30957, y: -48.73816}
+        - {x: 50.30957, y: 50.26184}
+    - name: concrete_tileset_203
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.26184}
+        - {x: -48.666626, y: -48.73816}
+        - {x: 49.333374, y: -48.73816}
+        - {x: 49.333374, y: 50.26184}
+    - name: concrete_tileset_204
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.26184}
+        - {x: -48.642822, y: -48.73816}
+        - {x: 50.357178, y: -48.73816}
+        - {x: 50.357178, y: 50.26184}
+    - name: concrete_tileset_205
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.26184}
+        - {x: -48.61902, y: -48.73816}
+        - {x: 49.38098, y: -48.73816}
+        - {x: 49.38098, y: 50.26184}
+    - name: concrete_tileset_206
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.26184}
+        - {x: -48.595215, y: -48.73816}
+        - {x: 50.404785, y: -48.73816}
+        - {x: 50.404785, y: 50.26184}
+    - name: concrete_tileset_207
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.26184}
+        - {x: -48.57141, y: -48.73816}
+        - {x: 49.42859, y: -48.73816}
+        - {x: 49.42859, y: 50.26184}
+    - name: concrete_tileset_208
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.26184}
+        - {x: -48.547607, y: -48.73816}
+        - {x: 50.452393, y: -48.73816}
+        - {x: 50.452393, y: 50.26184}
+    - name: concrete_tileset_209
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.26184}
+        - {x: -48.523804, y: -48.73816}
+        - {x: 49.476196, y: -48.73816}
+        - {x: 49.476196, y: 50.26184}
+    - name: concrete_tileset_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.2381}
+        - {x: -49, y: -48.7619}
+        - {x: 49, y: -48.7619}
+        - {x: 49, y: 49.2381}
+    - name: concrete_tileset_211
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.2381}
+        - {x: -48.97619, y: -48.7619}
+        - {x: 50.02381, y: -48.7619}
+        - {x: 50.02381, y: 49.2381}
+    - name: concrete_tileset_212
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.2381}
+        - {x: -48.952377, y: -48.7619}
+        - {x: 49.047623, y: -48.7619}
+        - {x: 49.047623, y: 49.2381}
+    - name: concrete_tileset_213
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.2381}
+        - {x: -48.92859, y: -48.7619}
+        - {x: 50.07141, y: -48.7619}
+        - {x: 50.07141, y: 49.2381}
+    - name: concrete_tileset_214
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.2381}
+        - {x: -48.904755, y: -48.7619}
+        - {x: 49.095245, y: -48.7619}
+        - {x: 49.095245, y: 49.2381}
+    - name: concrete_tileset_215
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.2381}
+        - {x: -48.88095, y: -48.7619}
+        - {x: 50.11905, y: -48.7619}
+        - {x: 50.11905, y: 49.2381}
+    - name: concrete_tileset_216
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.2381}
+        - {x: -48.857178, y: -48.7619}
+        - {x: 49.142822, y: -48.7619}
+        - {x: 49.142822, y: 49.2381}
+    - name: concrete_tileset_217
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.2381}
+        - {x: -48.833313, y: -48.7619}
+        - {x: 50.166687, y: -48.7619}
+        - {x: 50.166687, y: 49.2381}
+    - name: concrete_tileset_218
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.2381}
+        - {x: -48.80951, y: -48.7619}
+        - {x: 49.19049, y: -48.7619}
+        - {x: 49.19049, y: 49.2381}
+    - name: concrete_tileset_219
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.2381}
+        - {x: -48.785706, y: -48.7619}
+        - {x: 50.214294, y: -48.7619}
+        - {x: 50.214294, y: 49.2381}
+    - name: concrete_tileset_220
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.2381}
+        - {x: -48.7619, y: -48.7619}
+        - {x: 49.2381, y: -48.7619}
+        - {x: 49.2381, y: 49.2381}
+    - name: concrete_tileset_221
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.2381}
+        - {x: -48.73816, y: -48.7619}
+        - {x: 50.26184, y: -48.7619}
+        - {x: 50.26184, y: 49.2381}
+    - name: concrete_tileset_222
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.2381}
+        - {x: -48.714355, y: -48.7619}
+        - {x: 49.285645, y: -48.7619}
+        - {x: 49.285645, y: 49.2381}
+    - name: concrete_tileset_223
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.2381}
+        - {x: -48.69043, y: -48.7619}
+        - {x: 50.30957, y: -48.7619}
+        - {x: 50.30957, y: 49.2381}
+    - name: concrete_tileset_224
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.2381}
+        - {x: -48.666626, y: -48.7619}
+        - {x: 49.333374, y: -48.7619}
+        - {x: 49.333374, y: 49.2381}
+    - name: concrete_tileset_225
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.2381}
+        - {x: -48.642822, y: -48.7619}
+        - {x: 50.357178, y: -48.7619}
+        - {x: 50.357178, y: 49.2381}
+    - name: concrete_tileset_226
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.2381}
+        - {x: -48.61902, y: -48.7619}
+        - {x: 49.38098, y: -48.7619}
+        - {x: 49.38098, y: 49.2381}
+    - name: concrete_tileset_227
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.2381}
+        - {x: -48.595215, y: -48.7619}
+        - {x: 50.404785, y: -48.7619}
+        - {x: 50.404785, y: 49.2381}
+    - name: concrete_tileset_228
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.2381}
+        - {x: -48.57141, y: -48.7619}
+        - {x: 49.42859, y: -48.7619}
+        - {x: 49.42859, y: 49.2381}
+    - name: concrete_tileset_229
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.2381}
+        - {x: -48.547607, y: -48.7619}
+        - {x: 50.452393, y: -48.7619}
+        - {x: 50.452393, y: 49.2381}
+    - name: concrete_tileset_230
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1000
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.2381}
+        - {x: -48.523804, y: -48.7619}
+        - {x: 49.476196, y: -48.7619}
+        - {x: 49.476196, y: 49.2381}
+    - name: concrete_tileset_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.214294}
+        - {x: -49, y: -48.785706}
+        - {x: 49, y: -48.785706}
+        - {x: 49, y: 50.214294}
+    - name: concrete_tileset_232
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.214294}
+        - {x: -48.97619, y: -48.785706}
+        - {x: 50.02381, y: -48.785706}
+        - {x: 50.02381, y: 50.214294}
+    - name: concrete_tileset_233
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.214294}
+        - {x: -48.952377, y: -48.785706}
+        - {x: 49.047623, y: -48.785706}
+        - {x: 49.047623, y: 50.214294}
+    - name: concrete_tileset_234
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.214294}
+        - {x: -48.92859, y: -48.785706}
+        - {x: 50.07141, y: -48.785706}
+        - {x: 50.07141, y: 50.214294}
+    - name: concrete_tileset_235
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.214294}
+        - {x: -48.904755, y: -48.785706}
+        - {x: 49.095245, y: -48.785706}
+        - {x: 49.095245, y: 50.214294}
+    - name: concrete_tileset_236
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.214294}
+        - {x: -48.88095, y: -48.785706}
+        - {x: 50.11905, y: -48.785706}
+        - {x: 50.11905, y: 50.214294}
+    - name: concrete_tileset_237
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.214294}
+        - {x: -48.857178, y: -48.785706}
+        - {x: 49.142822, y: -48.785706}
+        - {x: 49.142822, y: 50.214294}
+    - name: concrete_tileset_238
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.214294}
+        - {x: -48.833313, y: -48.785706}
+        - {x: 50.166687, y: -48.785706}
+        - {x: 50.166687, y: 50.214294}
+    - name: concrete_tileset_239
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.214294}
+        - {x: -48.80951, y: -48.785706}
+        - {x: 49.19049, y: -48.785706}
+        - {x: 49.19049, y: 50.214294}
+    - name: concrete_tileset_240
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.214294}
+        - {x: -48.785706, y: -48.785706}
+        - {x: 50.214294, y: -48.785706}
+        - {x: 50.214294, y: 50.214294}
+    - name: concrete_tileset_241
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.214294}
+        - {x: -48.7619, y: -48.785706}
+        - {x: 49.2381, y: -48.785706}
+        - {x: 49.2381, y: 50.214294}
+    - name: concrete_tileset_242
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.214294}
+        - {x: -48.73816, y: -48.785706}
+        - {x: 50.26184, y: -48.785706}
+        - {x: 50.26184, y: 50.214294}
+    - name: concrete_tileset_243
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.214294}
+        - {x: -48.714355, y: -48.785706}
+        - {x: 49.285645, y: -48.785706}
+        - {x: 49.285645, y: 50.214294}
+    - name: concrete_tileset_244
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.214294}
+        - {x: -48.69043, y: -48.785706}
+        - {x: 50.30957, y: -48.785706}
+        - {x: 50.30957, y: 50.214294}
+    - name: concrete_tileset_245
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.214294}
+        - {x: -48.666626, y: -48.785706}
+        - {x: 49.333374, y: -48.785706}
+        - {x: 49.333374, y: 50.214294}
+    - name: concrete_tileset_246
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.214294}
+        - {x: -48.642822, y: -48.785706}
+        - {x: 50.357178, y: -48.785706}
+        - {x: 50.357178, y: 50.214294}
+    - name: concrete_tileset_247
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.214294}
+        - {x: -48.61902, y: -48.785706}
+        - {x: 49.38098, y: -48.785706}
+        - {x: 49.38098, y: 50.214294}
+    - name: concrete_tileset_248
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.214294}
+        - {x: -48.595215, y: -48.785706}
+        - {x: 50.404785, y: -48.785706}
+        - {x: 50.404785, y: 50.214294}
+    - name: concrete_tileset_249
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.214294}
+        - {x: -48.57141, y: -48.785706}
+        - {x: 49.42859, y: -48.785706}
+        - {x: 49.42859, y: 50.214294}
+    - name: concrete_tileset_250
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.214294}
+        - {x: -48.547607, y: -48.785706}
+        - {x: 50.452393, y: -48.785706}
+        - {x: 50.452393, y: 50.214294}
+    - name: concrete_tileset_251
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 900
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.214294}
+        - {x: -48.523804, y: -48.785706}
+        - {x: 49.476196, y: -48.785706}
+        - {x: 49.476196, y: 50.214294}
+    - name: concrete_tileset_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.19049}
+        - {x: -49, y: -48.80951}
+        - {x: 49, y: -48.80951}
+        - {x: 49, y: 49.19049}
+    - name: concrete_tileset_253
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.19049}
+        - {x: -48.97619, y: -48.80951}
+        - {x: 50.02381, y: -48.80951}
+        - {x: 50.02381, y: 49.19049}
+    - name: concrete_tileset_254
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.19049}
+        - {x: -48.952377, y: -48.80951}
+        - {x: 49.047623, y: -48.80951}
+        - {x: 49.047623, y: 49.19049}
+    - name: concrete_tileset_255
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.19049}
+        - {x: -48.92859, y: -48.80951}
+        - {x: 50.07141, y: -48.80951}
+        - {x: 50.07141, y: 49.19049}
+    - name: concrete_tileset_256
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.19049}
+        - {x: -48.904755, y: -48.80951}
+        - {x: 49.095245, y: -48.80951}
+        - {x: 49.095245, y: 49.19049}
+    - name: concrete_tileset_257
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.19049}
+        - {x: -48.88095, y: -48.80951}
+        - {x: 50.11905, y: -48.80951}
+        - {x: 50.11905, y: 49.19049}
+    - name: concrete_tileset_258
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.19049}
+        - {x: -48.857178, y: -48.80951}
+        - {x: 49.142822, y: -48.80951}
+        - {x: 49.142822, y: 49.19049}
+    - name: concrete_tileset_259
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.19049}
+        - {x: -48.833313, y: -48.80951}
+        - {x: 50.166687, y: -48.80951}
+        - {x: 50.166687, y: 49.19049}
+    - name: concrete_tileset_260
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.19049}
+        - {x: -48.80951, y: -48.80951}
+        - {x: 49.19049, y: -48.80951}
+        - {x: 49.19049, y: 49.19049}
+    - name: concrete_tileset_261
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.19049}
+        - {x: -48.785706, y: -48.80951}
+        - {x: 50.214294, y: -48.80951}
+        - {x: 50.214294, y: 49.19049}
+    - name: concrete_tileset_262
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.19049}
+        - {x: -48.7619, y: -48.80951}
+        - {x: 49.2381, y: -48.80951}
+        - {x: 49.2381, y: 49.19049}
+    - name: concrete_tileset_263
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.19049}
+        - {x: -48.73816, y: -48.80951}
+        - {x: 50.26184, y: -48.80951}
+        - {x: 50.26184, y: 49.19049}
+    - name: concrete_tileset_264
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.19049}
+        - {x: -48.714355, y: -48.80951}
+        - {x: 49.285645, y: -48.80951}
+        - {x: 49.285645, y: 49.19049}
+    - name: concrete_tileset_265
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.19049}
+        - {x: -48.69043, y: -48.80951}
+        - {x: 50.30957, y: -48.80951}
+        - {x: 50.30957, y: 49.19049}
+    - name: concrete_tileset_266
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.19049}
+        - {x: -48.666626, y: -48.80951}
+        - {x: 49.333374, y: -48.80951}
+        - {x: 49.333374, y: 49.19049}
+    - name: concrete_tileset_267
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.19049}
+        - {x: -48.642822, y: -48.80951}
+        - {x: 50.357178, y: -48.80951}
+        - {x: 50.357178, y: 49.19049}
+    - name: concrete_tileset_268
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.19049}
+        - {x: -48.61902, y: -48.80951}
+        - {x: 49.38098, y: -48.80951}
+        - {x: 49.38098, y: 49.19049}
+    - name: concrete_tileset_269
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.19049}
+        - {x: -48.595215, y: -48.80951}
+        - {x: 50.404785, y: -48.80951}
+        - {x: 50.404785, y: 49.19049}
+    - name: concrete_tileset_270
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.19049}
+        - {x: -48.57141, y: -48.80951}
+        - {x: 49.42859, y: -48.80951}
+        - {x: 49.42859, y: 49.19049}
+    - name: concrete_tileset_271
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.19049}
+        - {x: -48.547607, y: -48.80951}
+        - {x: 50.452393, y: -48.80951}
+        - {x: 50.452393, y: 49.19049}
+    - name: concrete_tileset_272
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 800
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.19049}
+        - {x: -48.523804, y: -48.80951}
+        - {x: 49.476196, y: -48.80951}
+        - {x: 49.476196, y: 49.19049}
+    - name: concrete_tileset_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.166687}
+        - {x: -49, y: -48.833313}
+        - {x: 49, y: -48.833313}
+        - {x: 49, y: 50.166687}
+    - name: concrete_tileset_274
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.166687}
+        - {x: -48.97619, y: -48.833313}
+        - {x: 50.02381, y: -48.833313}
+        - {x: 50.02381, y: 50.166687}
+    - name: concrete_tileset_275
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.166687}
+        - {x: -48.952377, y: -48.833313}
+        - {x: 49.047623, y: -48.833313}
+        - {x: 49.047623, y: 50.166687}
+    - name: concrete_tileset_276
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.166687}
+        - {x: -48.92859, y: -48.833313}
+        - {x: 50.07141, y: -48.833313}
+        - {x: 50.07141, y: 50.166687}
+    - name: concrete_tileset_277
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.166687}
+        - {x: -48.904755, y: -48.833313}
+        - {x: 49.095245, y: -48.833313}
+        - {x: 49.095245, y: 50.166687}
+    - name: concrete_tileset_278
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.166687}
+        - {x: -48.88095, y: -48.833313}
+        - {x: 50.11905, y: -48.833313}
+        - {x: 50.11905, y: 50.166687}
+    - name: concrete_tileset_279
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.166687}
+        - {x: -48.857178, y: -48.833313}
+        - {x: 49.142822, y: -48.833313}
+        - {x: 49.142822, y: 50.166687}
+    - name: concrete_tileset_280
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.166687}
+        - {x: -48.833313, y: -48.833313}
+        - {x: 50.166687, y: -48.833313}
+        - {x: 50.166687, y: 50.166687}
+    - name: concrete_tileset_281
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.166687}
+        - {x: -48.80951, y: -48.833313}
+        - {x: 49.19049, y: -48.833313}
+        - {x: 49.19049, y: 50.166687}
+    - name: concrete_tileset_282
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.166687}
+        - {x: -48.785706, y: -48.833313}
+        - {x: 50.214294, y: -48.833313}
+        - {x: 50.214294, y: 50.166687}
+    - name: concrete_tileset_283
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.166687}
+        - {x: -48.7619, y: -48.833313}
+        - {x: 49.2381, y: -48.833313}
+        - {x: 49.2381, y: 50.166687}
+    - name: concrete_tileset_284
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.166687}
+        - {x: -48.73816, y: -48.833313}
+        - {x: 50.26184, y: -48.833313}
+        - {x: 50.26184, y: 50.166687}
+    - name: concrete_tileset_285
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.166687}
+        - {x: -48.714355, y: -48.833313}
+        - {x: 49.285645, y: -48.833313}
+        - {x: 49.285645, y: 50.166687}
+    - name: concrete_tileset_286
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.166687}
+        - {x: -48.69043, y: -48.833313}
+        - {x: 50.30957, y: -48.833313}
+        - {x: 50.30957, y: 50.166687}
+    - name: concrete_tileset_287
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.166687}
+        - {x: -48.666626, y: -48.833313}
+        - {x: 49.333374, y: -48.833313}
+        - {x: 49.333374, y: 50.166687}
+    - name: concrete_tileset_288
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.166687}
+        - {x: -48.642822, y: -48.833313}
+        - {x: 50.357178, y: -48.833313}
+        - {x: 50.357178, y: 50.166687}
+    - name: concrete_tileset_289
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.166687}
+        - {x: -48.61902, y: -48.833313}
+        - {x: 49.38098, y: -48.833313}
+        - {x: 49.38098, y: 50.166687}
+    - name: concrete_tileset_290
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.166687}
+        - {x: -48.595215, y: -48.833313}
+        - {x: 50.404785, y: -48.833313}
+        - {x: 50.404785, y: 50.166687}
+    - name: concrete_tileset_291
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.166687}
+        - {x: -48.57141, y: -48.833313}
+        - {x: 49.42859, y: -48.833313}
+        - {x: 49.42859, y: 50.166687}
+    - name: concrete_tileset_292
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.166687}
+        - {x: -48.547607, y: -48.833313}
+        - {x: 50.452393, y: -48.833313}
+        - {x: 50.452393, y: 50.166687}
+    - name: concrete_tileset_293
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 700
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.166687}
+        - {x: -48.523804, y: -48.833313}
+        - {x: 49.476196, y: -48.833313}
+        - {x: 49.476196, y: 50.166687}
+    - name: concrete_tileset_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.142822}
+        - {x: -49, y: -48.857178}
+        - {x: 49, y: -48.857178}
+        - {x: 49, y: 49.142822}
+    - name: concrete_tileset_295
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.142822}
+        - {x: -48.97619, y: -48.857178}
+        - {x: 50.02381, y: -48.857178}
+        - {x: 50.02381, y: 49.142822}
+    - name: concrete_tileset_296
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.142822}
+        - {x: -48.952377, y: -48.857178}
+        - {x: 49.047623, y: -48.857178}
+        - {x: 49.047623, y: 49.142822}
+    - name: concrete_tileset_297
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.142822}
+        - {x: -48.92859, y: -48.857178}
+        - {x: 50.07141, y: -48.857178}
+        - {x: 50.07141, y: 49.142822}
+    - name: concrete_tileset_298
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.142822}
+        - {x: -48.904755, y: -48.857178}
+        - {x: 49.095245, y: -48.857178}
+        - {x: 49.095245, y: 49.142822}
+    - name: concrete_tileset_299
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.142822}
+        - {x: -48.88095, y: -48.857178}
+        - {x: 50.11905, y: -48.857178}
+        - {x: 50.11905, y: 49.142822}
+    - name: concrete_tileset_300
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.142822}
+        - {x: -48.857178, y: -48.857178}
+        - {x: 49.142822, y: -48.857178}
+        - {x: 49.142822, y: 49.142822}
+    - name: concrete_tileset_301
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.142822}
+        - {x: -48.833313, y: -48.857178}
+        - {x: 50.166687, y: -48.857178}
+        - {x: 50.166687, y: 49.142822}
+    - name: concrete_tileset_302
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.142822}
+        - {x: -48.80951, y: -48.857178}
+        - {x: 49.19049, y: -48.857178}
+        - {x: 49.19049, y: 49.142822}
+    - name: concrete_tileset_303
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.142822}
+        - {x: -48.785706, y: -48.857178}
+        - {x: 50.214294, y: -48.857178}
+        - {x: 50.214294, y: 49.142822}
+    - name: concrete_tileset_304
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.142822}
+        - {x: -48.7619, y: -48.857178}
+        - {x: 49.2381, y: -48.857178}
+        - {x: 49.2381, y: 49.142822}
+    - name: concrete_tileset_305
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.142822}
+        - {x: -48.73816, y: -48.857178}
+        - {x: 50.26184, y: -48.857178}
+        - {x: 50.26184, y: 49.142822}
+    - name: concrete_tileset_306
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.142822}
+        - {x: -48.714355, y: -48.857178}
+        - {x: 49.285645, y: -48.857178}
+        - {x: 49.285645, y: 49.142822}
+    - name: concrete_tileset_307
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.142822}
+        - {x: -48.69043, y: -48.857178}
+        - {x: 50.30957, y: -48.857178}
+        - {x: 50.30957, y: 49.142822}
+    - name: concrete_tileset_308
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.142822}
+        - {x: -48.666626, y: -48.857178}
+        - {x: 49.333374, y: -48.857178}
+        - {x: 49.333374, y: 49.142822}
+    - name: concrete_tileset_309
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.142822}
+        - {x: -48.642822, y: -48.857178}
+        - {x: 50.357178, y: -48.857178}
+        - {x: 50.357178, y: 49.142822}
+    - name: concrete_tileset_310
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.142822}
+        - {x: -48.61902, y: -48.857178}
+        - {x: 49.38098, y: -48.857178}
+        - {x: 49.38098, y: 49.142822}
+    - name: concrete_tileset_311
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.142822}
+        - {x: -48.595215, y: -48.857178}
+        - {x: 50.404785, y: -48.857178}
+        - {x: 50.404785, y: 49.142822}
+    - name: concrete_tileset_312
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.142822}
+        - {x: -48.57141, y: -48.857178}
+        - {x: 49.42859, y: -48.857178}
+        - {x: 49.42859, y: 49.142822}
+    - name: concrete_tileset_313
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.142822}
+        - {x: -48.547607, y: -48.857178}
+        - {x: 50.452393, y: -48.857178}
+        - {x: 50.452393, y: 49.142822}
+    - name: concrete_tileset_314
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 600
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.142822}
+        - {x: -48.523804, y: -48.857178}
+        - {x: 49.476196, y: -48.857178}
+        - {x: 49.476196, y: 49.142822}
+    - name: concrete_tileset_315
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.11905}
+        - {x: -49, y: -48.88095}
+        - {x: 49, y: -48.88095}
+        - {x: 49, y: 50.11905}
+    - name: concrete_tileset_316
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.11905}
+        - {x: -48.97619, y: -48.88095}
+        - {x: 50.02381, y: -48.88095}
+        - {x: 50.02381, y: 50.11905}
+    - name: concrete_tileset_317
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.11905}
+        - {x: -48.952377, y: -48.88095}
+        - {x: 49.047623, y: -48.88095}
+        - {x: 49.047623, y: 50.11905}
+    - name: concrete_tileset_318
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.11905}
+        - {x: -48.92859, y: -48.88095}
+        - {x: 50.07141, y: -48.88095}
+        - {x: 50.07141, y: 50.11905}
+    - name: concrete_tileset_319
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.11905}
+        - {x: -48.904755, y: -48.88095}
+        - {x: 49.095245, y: -48.88095}
+        - {x: 49.095245, y: 50.11905}
+    - name: concrete_tileset_320
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.11905}
+        - {x: -48.88095, y: -48.88095}
+        - {x: 50.11905, y: -48.88095}
+        - {x: 50.11905, y: 50.11905}
+    - name: concrete_tileset_321
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.11905}
+        - {x: -48.857178, y: -48.88095}
+        - {x: 49.142822, y: -48.88095}
+        - {x: 49.142822, y: 50.11905}
+    - name: concrete_tileset_322
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.11905}
+        - {x: -48.833313, y: -48.88095}
+        - {x: 50.166687, y: -48.88095}
+        - {x: 50.166687, y: 50.11905}
+    - name: concrete_tileset_323
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.11905}
+        - {x: -48.80951, y: -48.88095}
+        - {x: 49.19049, y: -48.88095}
+        - {x: 49.19049, y: 50.11905}
+    - name: concrete_tileset_324
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.11905}
+        - {x: -48.785706, y: -48.88095}
+        - {x: 50.214294, y: -48.88095}
+        - {x: 50.214294, y: 50.11905}
+    - name: concrete_tileset_325
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.11905}
+        - {x: -48.7619, y: -48.88095}
+        - {x: 49.2381, y: -48.88095}
+        - {x: 49.2381, y: 50.11905}
+    - name: concrete_tileset_326
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.11905}
+        - {x: -48.73816, y: -48.88095}
+        - {x: 50.26184, y: -48.88095}
+        - {x: 50.26184, y: 50.11905}
+    - name: concrete_tileset_327
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.11905}
+        - {x: -48.714355, y: -48.88095}
+        - {x: 49.285645, y: -48.88095}
+        - {x: 49.285645, y: 50.11905}
+    - name: concrete_tileset_328
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.11905}
+        - {x: -48.69043, y: -48.88095}
+        - {x: 50.30957, y: -48.88095}
+        - {x: 50.30957, y: 50.11905}
+    - name: concrete_tileset_329
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.11905}
+        - {x: -48.666626, y: -48.88095}
+        - {x: 49.333374, y: -48.88095}
+        - {x: 49.333374, y: 50.11905}
+    - name: concrete_tileset_330
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.11905}
+        - {x: -48.642822, y: -48.88095}
+        - {x: 50.357178, y: -48.88095}
+        - {x: 50.357178, y: 50.11905}
+    - name: concrete_tileset_331
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.11905}
+        - {x: -48.61902, y: -48.88095}
+        - {x: 49.38098, y: -48.88095}
+        - {x: 49.38098, y: 50.11905}
+    - name: concrete_tileset_332
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.11905}
+        - {x: -48.595215, y: -48.88095}
+        - {x: 50.404785, y: -48.88095}
+        - {x: 50.404785, y: 50.11905}
+    - name: concrete_tileset_333
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.11905}
+        - {x: -48.57141, y: -48.88095}
+        - {x: 49.42859, y: -48.88095}
+        - {x: 49.42859, y: 50.11905}
+    - name: concrete_tileset_334
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.11905}
+        - {x: -48.547607, y: -48.88095}
+        - {x: 50.452393, y: -48.88095}
+        - {x: 50.452393, y: 50.11905}
+    - name: concrete_tileset_335
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 500
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.11905}
+        - {x: -48.523804, y: -48.88095}
+        - {x: 49.476196, y: -48.88095}
+        - {x: 49.476196, y: 50.11905}
+    - name: concrete_tileset_336
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.095245}
+        - {x: -49, y: -48.904755}
+        - {x: 49, y: -48.904755}
+        - {x: 49, y: 49.095245}
+    - name: concrete_tileset_337
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.095245}
+        - {x: -48.97619, y: -48.904755}
+        - {x: 50.02381, y: -48.904755}
+        - {x: 50.02381, y: 49.095245}
+    - name: concrete_tileset_338
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.095245}
+        - {x: -48.952377, y: -48.904755}
+        - {x: 49.047623, y: -48.904755}
+        - {x: 49.047623, y: 49.095245}
+    - name: concrete_tileset_339
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.095245}
+        - {x: -48.92859, y: -48.904755}
+        - {x: 50.07141, y: -48.904755}
+        - {x: 50.07141, y: 49.095245}
+    - name: concrete_tileset_340
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.095245}
+        - {x: -48.904755, y: -48.904755}
+        - {x: 49.095245, y: -48.904755}
+        - {x: 49.095245, y: 49.095245}
+    - name: concrete_tileset_341
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.095245}
+        - {x: -48.88095, y: -48.904755}
+        - {x: 50.11905, y: -48.904755}
+        - {x: 50.11905, y: 49.095245}
+    - name: concrete_tileset_342
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.095245}
+        - {x: -48.857178, y: -48.904755}
+        - {x: 49.142822, y: -48.904755}
+        - {x: 49.142822, y: 49.095245}
+    - name: concrete_tileset_343
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.095245}
+        - {x: -48.833313, y: -48.904755}
+        - {x: 50.166687, y: -48.904755}
+        - {x: 50.166687, y: 49.095245}
+    - name: concrete_tileset_344
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.095245}
+        - {x: -48.80951, y: -48.904755}
+        - {x: 49.19049, y: -48.904755}
+        - {x: 49.19049, y: 49.095245}
+    - name: concrete_tileset_345
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.095245}
+        - {x: -48.785706, y: -48.904755}
+        - {x: 50.214294, y: -48.904755}
+        - {x: 50.214294, y: 49.095245}
+    - name: concrete_tileset_346
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.095245}
+        - {x: -48.7619, y: -48.904755}
+        - {x: 49.2381, y: -48.904755}
+        - {x: 49.2381, y: 49.095245}
+    - name: concrete_tileset_347
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.095245}
+        - {x: -48.73816, y: -48.904755}
+        - {x: 50.26184, y: -48.904755}
+        - {x: 50.26184, y: 49.095245}
+    - name: concrete_tileset_348
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.095245}
+        - {x: -48.714355, y: -48.904755}
+        - {x: 49.285645, y: -48.904755}
+        - {x: 49.285645, y: 49.095245}
+    - name: concrete_tileset_349
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.095245}
+        - {x: -48.69043, y: -48.904755}
+        - {x: 50.30957, y: -48.904755}
+        - {x: 50.30957, y: 49.095245}
+    - name: concrete_tileset_350
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.095245}
+        - {x: -48.666626, y: -48.904755}
+        - {x: 49.333374, y: -48.904755}
+        - {x: 49.333374, y: 49.095245}
+    - name: concrete_tileset_351
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.095245}
+        - {x: -48.642822, y: -48.904755}
+        - {x: 50.357178, y: -48.904755}
+        - {x: 50.357178, y: 49.095245}
+    - name: concrete_tileset_352
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.095245}
+        - {x: -48.61902, y: -48.904755}
+        - {x: 49.38098, y: -48.904755}
+        - {x: 49.38098, y: 49.095245}
+    - name: concrete_tileset_353
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.095245}
+        - {x: -48.595215, y: -48.904755}
+        - {x: 50.404785, y: -48.904755}
+        - {x: 50.404785, y: 49.095245}
+    - name: concrete_tileset_354
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.095245}
+        - {x: -48.57141, y: -48.904755}
+        - {x: 49.42859, y: -48.904755}
+        - {x: 49.42859, y: 49.095245}
+    - name: concrete_tileset_355
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.095245}
+        - {x: -48.547607, y: -48.904755}
+        - {x: 50.452393, y: -48.904755}
+        - {x: 50.452393, y: 49.095245}
+    - name: concrete_tileset_356
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 400
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.095245}
+        - {x: -48.523804, y: -48.904755}
+        - {x: 49.476196, y: -48.904755}
+        - {x: 49.476196, y: 49.095245}
+    - name: concrete_tileset_357
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.07141}
+        - {x: -49, y: -48.92859}
+        - {x: 49, y: -48.92859}
+        - {x: 49, y: 50.07141}
+    - name: concrete_tileset_358
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.07141}
+        - {x: -48.97619, y: -48.92859}
+        - {x: 50.02381, y: -48.92859}
+        - {x: 50.02381, y: 50.07141}
+    - name: concrete_tileset_359
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.07141}
+        - {x: -48.952377, y: -48.92859}
+        - {x: 49.047623, y: -48.92859}
+        - {x: 49.047623, y: 50.07141}
+    - name: concrete_tileset_360
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.07141}
+        - {x: -48.92859, y: -48.92859}
+        - {x: 50.07141, y: -48.92859}
+        - {x: 50.07141, y: 50.07141}
+    - name: concrete_tileset_361
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.07141}
+        - {x: -48.904755, y: -48.92859}
+        - {x: 49.095245, y: -48.92859}
+        - {x: 49.095245, y: 50.07141}
+    - name: concrete_tileset_362
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.07141}
+        - {x: -48.88095, y: -48.92859}
+        - {x: 50.11905, y: -48.92859}
+        - {x: 50.11905, y: 50.07141}
+    - name: concrete_tileset_363
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.07141}
+        - {x: -48.857178, y: -48.92859}
+        - {x: 49.142822, y: -48.92859}
+        - {x: 49.142822, y: 50.07141}
+    - name: concrete_tileset_364
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.07141}
+        - {x: -48.833313, y: -48.92859}
+        - {x: 50.166687, y: -48.92859}
+        - {x: 50.166687, y: 50.07141}
+    - name: concrete_tileset_365
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.07141}
+        - {x: -48.80951, y: -48.92859}
+        - {x: 49.19049, y: -48.92859}
+        - {x: 49.19049, y: 50.07141}
+    - name: concrete_tileset_366
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.07141}
+        - {x: -48.785706, y: -48.92859}
+        - {x: 50.214294, y: -48.92859}
+        - {x: 50.214294, y: 50.07141}
+    - name: concrete_tileset_367
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.07141}
+        - {x: -48.7619, y: -48.92859}
+        - {x: 49.2381, y: -48.92859}
+        - {x: 49.2381, y: 50.07141}
+    - name: concrete_tileset_368
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.07141}
+        - {x: -48.73816, y: -48.92859}
+        - {x: 50.26184, y: -48.92859}
+        - {x: 50.26184, y: 50.07141}
+    - name: concrete_tileset_369
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.07141}
+        - {x: -48.714355, y: -48.92859}
+        - {x: 49.285645, y: -48.92859}
+        - {x: 49.285645, y: 50.07141}
+    - name: concrete_tileset_370
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.07141}
+        - {x: -48.69043, y: -48.92859}
+        - {x: 50.30957, y: -48.92859}
+        - {x: 50.30957, y: 50.07141}
+    - name: concrete_tileset_371
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.07141}
+        - {x: -48.666626, y: -48.92859}
+        - {x: 49.333374, y: -48.92859}
+        - {x: 49.333374, y: 50.07141}
+    - name: concrete_tileset_372
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.07141}
+        - {x: -48.642822, y: -48.92859}
+        - {x: 50.357178, y: -48.92859}
+        - {x: 50.357178, y: 50.07141}
+    - name: concrete_tileset_373
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.07141}
+        - {x: -48.61902, y: -48.92859}
+        - {x: 49.38098, y: -48.92859}
+        - {x: 49.38098, y: 50.07141}
+    - name: concrete_tileset_374
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.07141}
+        - {x: -48.595215, y: -48.92859}
+        - {x: 50.404785, y: -48.92859}
+        - {x: 50.404785, y: 50.07141}
+    - name: concrete_tileset_375
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.07141}
+        - {x: -48.57141, y: -48.92859}
+        - {x: 49.42859, y: -48.92859}
+        - {x: 49.42859, y: 50.07141}
+    - name: concrete_tileset_376
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.07141}
+        - {x: -48.547607, y: -48.92859}
+        - {x: 50.452393, y: -48.92859}
+        - {x: 50.452393, y: 50.07141}
+    - name: concrete_tileset_377
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 300
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.07141}
+        - {x: -48.523804, y: -48.92859}
+        - {x: 49.476196, y: -48.92859}
+        - {x: 49.476196, y: 50.07141}
+    - name: concrete_tileset_378
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49.047623}
+        - {x: -49, y: -48.952377}
+        - {x: 49, y: -48.952377}
+        - {x: 49, y: 49.047623}
+    - name: concrete_tileset_379
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49.047623}
+        - {x: -48.97619, y: -48.952377}
+        - {x: 50.02381, y: -48.952377}
+        - {x: 50.02381, y: 49.047623}
+    - name: concrete_tileset_380
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49.047623}
+        - {x: -48.952377, y: -48.952377}
+        - {x: 49.047623, y: -48.952377}
+        - {x: 49.047623, y: 49.047623}
+    - name: concrete_tileset_381
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49.047623}
+        - {x: -48.92859, y: -48.952377}
+        - {x: 50.07141, y: -48.952377}
+        - {x: 50.07141, y: 49.047623}
+    - name: concrete_tileset_382
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49.047623}
+        - {x: -48.904755, y: -48.952377}
+        - {x: 49.095245, y: -48.952377}
+        - {x: 49.095245, y: 49.047623}
+    - name: concrete_tileset_383
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49.047623}
+        - {x: -48.88095, y: -48.952377}
+        - {x: 50.11905, y: -48.952377}
+        - {x: 50.11905, y: 49.047623}
+    - name: concrete_tileset_384
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49.047623}
+        - {x: -48.857178, y: -48.952377}
+        - {x: 49.142822, y: -48.952377}
+        - {x: 49.142822, y: 49.047623}
+    - name: concrete_tileset_385
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49.047623}
+        - {x: -48.833313, y: -48.952377}
+        - {x: 50.166687, y: -48.952377}
+        - {x: 50.166687, y: 49.047623}
+    - name: concrete_tileset_386
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49.047623}
+        - {x: -48.80951, y: -48.952377}
+        - {x: 49.19049, y: -48.952377}
+        - {x: 49.19049, y: 49.047623}
+    - name: concrete_tileset_387
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49.047623}
+        - {x: -48.785706, y: -48.952377}
+        - {x: 50.214294, y: -48.952377}
+        - {x: 50.214294, y: 49.047623}
+    - name: concrete_tileset_388
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49.047623}
+        - {x: -48.7619, y: -48.952377}
+        - {x: 49.2381, y: -48.952377}
+        - {x: 49.2381, y: 49.047623}
+    - name: concrete_tileset_389
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49.047623}
+        - {x: -48.73816, y: -48.952377}
+        - {x: 50.26184, y: -48.952377}
+        - {x: 50.26184, y: 49.047623}
+    - name: concrete_tileset_390
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49.047623}
+        - {x: -48.714355, y: -48.952377}
+        - {x: 49.285645, y: -48.952377}
+        - {x: 49.285645, y: 49.047623}
+    - name: concrete_tileset_391
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49.047623}
+        - {x: -48.69043, y: -48.952377}
+        - {x: 50.30957, y: -48.952377}
+        - {x: 50.30957, y: 49.047623}
+    - name: concrete_tileset_392
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49.047623}
+        - {x: -48.666626, y: -48.952377}
+        - {x: 49.333374, y: -48.952377}
+        - {x: 49.333374, y: 49.047623}
+    - name: concrete_tileset_393
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49.047623}
+        - {x: -48.642822, y: -48.952377}
+        - {x: 50.357178, y: -48.952377}
+        - {x: 50.357178, y: 49.047623}
+    - name: concrete_tileset_394
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49.047623}
+        - {x: -48.61902, y: -48.952377}
+        - {x: 49.38098, y: -48.952377}
+        - {x: 49.38098, y: 49.047623}
+    - name: concrete_tileset_395
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49.047623}
+        - {x: -48.595215, y: -48.952377}
+        - {x: 50.404785, y: -48.952377}
+        - {x: 50.404785, y: 49.047623}
+    - name: concrete_tileset_396
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49.047623}
+        - {x: -48.57141, y: -48.952377}
+        - {x: 49.42859, y: -48.952377}
+        - {x: 49.42859, y: 49.047623}
+    - name: concrete_tileset_397
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49.047623}
+        - {x: -48.547607, y: -48.952377}
+        - {x: 50.452393, y: -48.952377}
+        - {x: 50.452393, y: 49.047623}
+    - name: concrete_tileset_398
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49.047623}
+        - {x: -48.523804, y: -48.952377}
+        - {x: 49.476196, y: -48.952377}
+        - {x: 49.476196, y: 49.047623}
+    - name: concrete_tileset_399
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 50.02381}
+        - {x: -49, y: -48.97619}
+        - {x: 49, y: -48.97619}
+        - {x: 49, y: 50.02381}
+    - name: concrete_tileset_400
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 50.02381}
+        - {x: -48.97619, y: -48.97619}
+        - {x: 50.02381, y: -48.97619}
+        - {x: 50.02381, y: 50.02381}
+    - name: concrete_tileset_401
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 50.02381}
+        - {x: -48.952377, y: -48.97619}
+        - {x: 49.047623, y: -48.97619}
+        - {x: 49.047623, y: 50.02381}
+    - name: concrete_tileset_402
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 50.02381}
+        - {x: -48.92859, y: -48.97619}
+        - {x: 50.07141, y: -48.97619}
+        - {x: 50.07141, y: 50.02381}
+    - name: concrete_tileset_403
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 50.02381}
+        - {x: -48.904755, y: -48.97619}
+        - {x: 49.095245, y: -48.97619}
+        - {x: 49.095245, y: 50.02381}
+    - name: concrete_tileset_404
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 50.02381}
+        - {x: -48.88095, y: -48.97619}
+        - {x: 50.11905, y: -48.97619}
+        - {x: 50.11905, y: 50.02381}
+    - name: concrete_tileset_405
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 50.02381}
+        - {x: -48.857178, y: -48.97619}
+        - {x: 49.142822, y: -48.97619}
+        - {x: 49.142822, y: 50.02381}
+    - name: concrete_tileset_406
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 50.02381}
+        - {x: -48.833313, y: -48.97619}
+        - {x: 50.166687, y: -48.97619}
+        - {x: 50.166687, y: 50.02381}
+    - name: concrete_tileset_407
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 50.02381}
+        - {x: -48.80951, y: -48.97619}
+        - {x: 49.19049, y: -48.97619}
+        - {x: 49.19049, y: 50.02381}
+    - name: concrete_tileset_408
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 50.02381}
+        - {x: -48.785706, y: -48.97619}
+        - {x: 50.214294, y: -48.97619}
+        - {x: 50.214294, y: 50.02381}
+    - name: concrete_tileset_409
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 50.02381}
+        - {x: -48.7619, y: -48.97619}
+        - {x: 49.2381, y: -48.97619}
+        - {x: 49.2381, y: 50.02381}
+    - name: concrete_tileset_410
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 50.02381}
+        - {x: -48.73816, y: -48.97619}
+        - {x: 50.26184, y: -48.97619}
+        - {x: 50.26184, y: 50.02381}
+    - name: concrete_tileset_411
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 50.02381}
+        - {x: -48.714355, y: -48.97619}
+        - {x: 49.285645, y: -48.97619}
+        - {x: 49.285645, y: 50.02381}
+    - name: concrete_tileset_412
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 50.02381}
+        - {x: -48.69043, y: -48.97619}
+        - {x: 50.30957, y: -48.97619}
+        - {x: 50.30957, y: 50.02381}
+    - name: concrete_tileset_413
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 50.02381}
+        - {x: -48.666626, y: -48.97619}
+        - {x: 49.333374, y: -48.97619}
+        - {x: 49.333374, y: 50.02381}
+    - name: concrete_tileset_414
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 50.02381}
+        - {x: -48.642822, y: -48.97619}
+        - {x: 50.357178, y: -48.97619}
+        - {x: 50.357178, y: 50.02381}
+    - name: concrete_tileset_415
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 50.02381}
+        - {x: -48.61902, y: -48.97619}
+        - {x: 49.38098, y: -48.97619}
+        - {x: 49.38098, y: 50.02381}
+    - name: concrete_tileset_416
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 50.02381}
+        - {x: -48.595215, y: -48.97619}
+        - {x: 50.404785, y: -48.97619}
+        - {x: 50.404785, y: 50.02381}
+    - name: concrete_tileset_417
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 50.02381}
+        - {x: -48.57141, y: -48.97619}
+        - {x: 49.42859, y: -48.97619}
+        - {x: 49.42859, y: 50.02381}
+    - name: concrete_tileset_418
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 50.02381}
+        - {x: -48.547607, y: -48.97619}
+        - {x: 50.452393, y: -48.97619}
+        - {x: 50.452393, y: 50.02381}
+    - name: concrete_tileset_419
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 50.02381}
+        - {x: -48.523804, y: -48.97619}
+        - {x: 49.476196, y: -48.97619}
+        - {x: 49.476196, y: 50.02381}
+    - name: concrete_tileset_420
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 49}
+        - {x: -49, y: -49}
+        - {x: 49, y: -49}
+        - {x: 49, y: 49}
+    - name: concrete_tileset_421
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.97619, y: 49}
+        - {x: -48.97619, y: -49}
+        - {x: 50.02381, y: -49}
+        - {x: 50.02381, y: 49}
+    - name: concrete_tileset_422
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.952377, y: 49}
+        - {x: -48.952377, y: -49}
+        - {x: 49.047623, y: -49}
+        - {x: 49.047623, y: 49}
+    - name: concrete_tileset_423
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.92859, y: 49}
+        - {x: -48.92859, y: -49}
+        - {x: 50.07141, y: -49}
+        - {x: 50.07141, y: 49}
+    - name: concrete_tileset_424
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.904755, y: 49}
+        - {x: -48.904755, y: -49}
+        - {x: 49.095245, y: -49}
+        - {x: 49.095245, y: 49}
+    - name: concrete_tileset_425
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.88095, y: 49}
+        - {x: -48.88095, y: -49}
+        - {x: 50.11905, y: -49}
+        - {x: 50.11905, y: 49}
+    - name: concrete_tileset_426
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.857178, y: 49}
+        - {x: -48.857178, y: -49}
+        - {x: 49.142822, y: -49}
+        - {x: 49.142822, y: 49}
+    - name: concrete_tileset_427
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.833313, y: 49}
+        - {x: -48.833313, y: -49}
+        - {x: 50.166687, y: -49}
+        - {x: 50.166687, y: 49}
+    - name: concrete_tileset_428
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.80951, y: 49}
+        - {x: -48.80951, y: -49}
+        - {x: 49.19049, y: -49}
+        - {x: 49.19049, y: 49}
+    - name: concrete_tileset_429
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.785706, y: 49}
+        - {x: -48.785706, y: -49}
+        - {x: 50.214294, y: -49}
+        - {x: 50.214294, y: 49}
+    - name: concrete_tileset_430
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.7619, y: 49}
+        - {x: -48.7619, y: -49}
+        - {x: 49.2381, y: -49}
+        - {x: 49.2381, y: 49}
+    - name: concrete_tileset_431
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.73816, y: 49}
+        - {x: -48.73816, y: -49}
+        - {x: 50.26184, y: -49}
+        - {x: 50.26184, y: 49}
+    - name: concrete_tileset_432
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.714355, y: 49}
+        - {x: -48.714355, y: -49}
+        - {x: 49.285645, y: -49}
+        - {x: 49.285645, y: 49}
+    - name: concrete_tileset_433
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.69043, y: 49}
+        - {x: -48.69043, y: -49}
+        - {x: 50.30957, y: -49}
+        - {x: 50.30957, y: 49}
+    - name: concrete_tileset_434
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.666626, y: 49}
+        - {x: -48.666626, y: -49}
+        - {x: 49.333374, y: -49}
+        - {x: 49.333374, y: 49}
+    - name: concrete_tileset_435
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.642822, y: 49}
+        - {x: -48.642822, y: -49}
+        - {x: 50.357178, y: -49}
+        - {x: 50.357178, y: 49}
+    - name: concrete_tileset_436
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.61902, y: 49}
+        - {x: -48.61902, y: -49}
+        - {x: 49.38098, y: -49}
+        - {x: 49.38098, y: 49}
+    - name: concrete_tileset_437
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.595215, y: 49}
+        - {x: -48.595215, y: -49}
+        - {x: 50.404785, y: -49}
+        - {x: 50.404785, y: 49}
+    - name: concrete_tileset_438
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.57141, y: 49}
+        - {x: -48.57141, y: -49}
+        - {x: 49.42859, y: -49}
+        - {x: 49.42859, y: 49}
+    - name: concrete_tileset_439
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.547607, y: 49}
+        - {x: -48.547607, y: -49}
+        - {x: 50.452393, y: -49}
+        - {x: 50.452393, y: 49}
+    - name: concrete_tileset_440
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.523804, y: 49}
+        - {x: -48.523804, y: -49}
+        - {x: 49.476196, y: -49}
+        - {x: 49.476196, y: 49}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
