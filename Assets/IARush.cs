@@ -7,6 +7,7 @@ public class IARush : MonoBehaviour {
 	public LayerMask mask;
 	private bool rushOrNot = false;
 	private Vector2 startPosition;
+	public Vector2 targetPosition;
 
 	// Use this for initialization
 	void Start () {
@@ -19,18 +20,41 @@ public class IARush : MonoBehaviour {
 	void Update () {
 
 		if (!rushOrNot) {
-
-			if (Physics2D.Raycast (gameObject.transform.position, Vector2.left, 10, mask.value)) {
-				//rb2d.velocity.x = -2;
-				rushOrNot = true;
-
+			
+			Collider2D coll = Physics2D.OverlapCircle (gameObject.transform.position, 20, mask.value);
+			if (coll) {
+				if (coll.tag == "Player") {
+					targetPosition = coll.GetComponent<Transform> ().position;
+					rushOrNot = true;
+				}
 			}
-		} 
-		else if (rb2d.velocity.y == 0) {
+		}
+		Vector2 position = gameObject.transform.position;
+		if (rushOrNot ){
+			if (position == targetPosition) {
+				rushOrNot = false;
+				StopCoroutine ("rush");
+			} else {
+				StartCoroutine ("rush");
+			}
+		}
+		
+		/*else if (rb2d.velocity.x == 0) {
+
 
 			gameObject.transform.position = startPosition;
 			rushOrNot = false;
 			//rb2d.velocity.x = 0;
-		}
+		}*/
+	}
+
+
+	void startRushing()
+	{
+		StartCoroutine ("rush");
+	}
+
+	void rush (){
+		gameObject.transform.position = Vector3.MoveTowards (gameObject.transform.position, targetPosition, 0.7f);
 	}
 }

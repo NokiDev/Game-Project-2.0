@@ -145,7 +145,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.09, y: 5.3, z: 0}
+  m_LocalPosition: {x: -4.16, y: 4.83, z: 0}
   m_LocalScale: {x: 2.410205, y: 2.2025871, z: 2}
   m_Children:
   - {fileID: 418472}
@@ -164,7 +164,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138208}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.63, z: 0}
+  m_LocalPosition: {x: 0, y: -1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
@@ -388,7 +388,7 @@ MonoBehaviour:
   m_AirControl: 1
   m_FloorMask:
     serializedVersion: 2
-    m_Bits: 4294959560
+    m_Bits: 4294965247
 --- !u!114 &11478348
 MonoBehaviour:
   m_ObjectHideFlags: 1
