@@ -15,10 +15,11 @@ public class PlayerManager : EntityManager {
         m_StaminaManager.enabled = true;
         m_HealthManager = GetComponent<PlayerHealth>();
         m_HealthManager.enabled = true;
+        GetComponent<PlayerSpell>().enabled = true;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	 
+	
 	}
 }

@@ -50,20 +50,31 @@ public class PlayerAttack : DamageSource {
         if(attack)
         {
             anim.SetTrigger("Attack");
-            Attack();
+            //Attack();
             attack = false;
         }
     }
 
     void  Attack()
     {
-        Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
+       /* Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
         foreach(Collider2D enemy in enemies)
         {
             playerComboScript.addCombo(m_Combo);
             m_PlayerStamina.RegenStamina(1f);
             EntityHealth healthManager = enemy.gameObject.GetComponent<EntityHealth>();
             healthManager.TakeDamage(this);
-        }
+        }*/
+    }
+
+    void OnTriggerEnter2D(Collider2D coll)
+    {
+        if(coll.tag == "Enemies")
+        {
+            playerComboScript.addCombo(m_Combo);
+            m_PlayerStamina.RegenStamina(1f);
+            EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
+            healthManager.TakeDamage(this);
+        } 
     }
 }

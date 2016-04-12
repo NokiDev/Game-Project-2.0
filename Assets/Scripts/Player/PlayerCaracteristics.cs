@@ -38,6 +38,7 @@ public class PlayerCaracteristics : MonoBehaviour {
         set
         {
             m_Health = value;
+            SaveManager.instance.setValue<float>("Health", m_Health);
         }
     }
     public float HealthMax
@@ -83,6 +84,7 @@ public class PlayerCaracteristics : MonoBehaviour {
         m_NumberOfHealthUpgrades += number;
         m_HealthMax += number * 20;
         m_Health += number * 20;
+        SaveManager.instance.setValue<int>("HealthUpgrades", m_NumberOfHealthUpgrades);
     }
 
     public void addStaminaUpgrade(int number)

@@ -18,6 +18,10 @@ public class movingIA : MonoBehaviour {
     {
         velocity.x = (Time.deltaTime * vitesse)*mvt;
         gameObject.transform.position = new Vector3(gameObject.transform.position.x+velocity.x, gameObject.transform.position.y, gameObject.transform.position.z);
+	    if (this.gameObject.transform.position.y < -20)
+	    {
+	        Destroy(this.gameObject);
+	    }
     }
 
 

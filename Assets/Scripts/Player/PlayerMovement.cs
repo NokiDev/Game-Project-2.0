@@ -94,6 +94,11 @@ public class PlayerMovement : MonoBehaviour {
         m_CurrentMovementBehaviour = gameObject.AddComponent<BasicMovement>();
     }
 
+    void Update()
+    {
+
+    }
+
     public MovementBehaviour ChangeMovementState(MovementState movementType)
     {
         m_CurrentMovementBehaviour.Stop();
