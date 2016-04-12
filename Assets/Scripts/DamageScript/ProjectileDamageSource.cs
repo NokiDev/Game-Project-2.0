@@ -32,19 +32,16 @@ public class ProjectileDamageSource : DamageSource {
     {
         if (((1 << coll.gameObject.layer) & targetLayer.value) != 0)//Teste le layer en fonction du layerMask, si ce n'est pas = a 0 le mask correspond  
         {
-            if(coll.gameObject.tag == "Player")
+            coll.gameObject.GetComponent<EntityHealth>().TakeDamage(this);
+            Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
+            foreach (Collider2D enemy in enemies)
             {
-                coll.gameObject.GetComponent<PlayerHealth>().TakeDamage(this);
-                Collider2D[] enemies = Physics2D.OverlapCircleAll(transform.position, range, targetLayer);
-                foreach (Collider2D enemy in enemies)
+                if(enemy.tag == "Enemies")
                 {
-                    if(enemy.tag == "Enemies")
-                    {
-                        enemy.gameObject.GetComponent<PlayerHealth>().TakeDamage(this);
-                    }
+                    enemy.gameObject.GetComponent<EntityHealth>().TakeDamage(this);
                 }
-                Destroy(this.gameObject);
             }
+            Destroy(this.gameObject);
         }
     }
 }

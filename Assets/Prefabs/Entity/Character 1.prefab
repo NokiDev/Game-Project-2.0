@@ -20,6 +20,7 @@ GameObject:
   - 114: {fileID: 11484650}
   - 114: {fileID: 11413588}
   - 114: {fileID: 11482238}
+  - 114: {fileID: 11413104}
   m_Layer: 11
   m_Name: Character 1
   m_TagString: Player
@@ -70,6 +71,7 @@ GameObject:
   - 212: {fileID: 21257372}
   - 114: {fileID: 11400958}
   - 95: {fileID: 9597922}
+  - 61: {fileID: 6198884}
   m_Layer: 11
   m_Name: Sword
   m_TagString: Untagged
@@ -151,8 +153,8 @@ Transform:
   m_Children:
   - {fileID: 418472}
   - {fileID: 410582}
-  - {fileID: 427964}
   - {fileID: 490296}
+  - {fileID: 427964}
   - {fileID: 418172}
   - {fileID: 412812}
   - {fileID: 498356}
@@ -212,24 +214,24 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 119440}
-  m_LocalRotation: {x: 0.002995794, y: -0.0081974715, z: -0.3432369, w: 0.9392084}
-  m_LocalPosition: {x: 0.5899999, y: 0.01999998, z: 0}
+  m_LocalRotation: {x: 0.0029957937, y: -0.0081974715, z: -0.3432369, w: 0.9392084}
+  m_LocalPosition: {x: 0.59, y: 0.019999957, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &490296
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162398}
-  m_LocalRotation: {x: 0, y: 0, z: 0.0002617804, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0, z: -2}
+  m_LocalRotation: {x: 0, y: -3.4924597e-10, z: 0.00026177373, w: 1}
+  m_LocalPosition: {x: 0.070000075, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 402674}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!4 &498356
 Transform:
   m_ObjectHideFlags: 1
@@ -287,6 +289,20 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 1, y: 2.6}
+--- !u!61 &6198884
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119440}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0.026189335, y: 0.2663086}
+  serializedVersion: 2
+  m_Size: {x: 0.2874071, y: 1.7800441}
 --- !u!95 &9504374
 Animator:
   serializedVersion: 3
@@ -339,6 +355,17 @@ MonoBehaviour:
   targetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &11413104
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d3dea6c69a7444093ed16ec6543546, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11413588
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -396,12 +423,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 108138}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6f0ca9dd022a60c4a82d9ecd523537fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Health: 1
+  m_Health: 100
   m_HealthMax: 100
   m_PhyDamage: 15
   m_StaminaMax: 50

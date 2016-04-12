@@ -109,7 +109,7 @@ MonoBehaviour:
   delay: 1
   targetLayer:
     serializedVersion: 2
-    m_Bits: 2560
+    m_Bits: 512
   m_TimeToLive: 2
   m_Speed: 30
 --- !u!198 &19867460
@@ -1719,7 +1719,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: targetLayer.m_Bits
-      value: 2560
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 0}
       propertyPath: m_TimeToLive
