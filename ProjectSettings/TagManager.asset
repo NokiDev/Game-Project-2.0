@@ -50,6 +50,9 @@ TagManager:
   - name: Background
     uniqueID: 1116831051
     locked: 0
+  - name: MidleGround
+    uniqueID: 1534781387
+    locked: 0
   - name: Character
     uniqueID: 2926057411
     locked: 0
@@ -58,7 +61,4 @@ TagManager:
     locked: 0
   - name: UI
     uniqueID: 2309613187
-    locked: 0
-  - name: MidleGround
-    uniqueID: 1534781387
     locked: 0
