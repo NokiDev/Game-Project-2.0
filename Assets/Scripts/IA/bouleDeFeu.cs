@@ -6,8 +6,10 @@ using System.Collections;
 public class bouleDeFeu : MonoBehaviour {
 
     public GameObject BDF;
+    private Transform transform2;
 	// Use this for initialization
 	void Start () {
+        transform2 = GetComponent<Transform>();
         InvokeRepeating("summon", 3f, 3f);
     }
 
@@ -17,7 +19,7 @@ public class bouleDeFeu : MonoBehaviour {
 
     void summon()
     {
-        GameObject BDF1 = (GameObject)(GameObject.Instantiate(BDF, new Vector3 (gameObject.transform.position.x, transform.position.y, transform.position.z), Quaternion.identity));
-        GameObject BDF2 = (GameObject)(GameObject.Instantiate(BDF, new Vector3(gameObject.transform.position.x, transform.position.y-2, transform.position.z), Quaternion.identity));
+        GameObject BDF1 = (GameObject)(GameObject.Instantiate(BDF, new Vector3 (transform2.position.x, transform2.position.y, transform2.position.z), Quaternion.identity));
+        GameObject BDF2 = (GameObject)(GameObject.Instantiate(BDF, new Vector3(transform2.position.x, transform2.position.y-2, transform2.position.z), Quaternion.identity));
     }
 }
