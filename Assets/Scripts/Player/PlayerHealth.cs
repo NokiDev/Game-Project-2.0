@@ -30,7 +30,7 @@ public class PlayerHealth : HealthManager {
                 m_Damaged = true;
                 // ... prends des dégat et reset le temps du dernier coup pris
                 // Creer un vecteur de l'enemi jusqu'au joueur plus un boost up
-                Vector3 hurtVector = transform.position - damageSource.transform.position + Vector3.up * 5f;
+                Vector3 hurtVector = transform.position - damageSource.transform.position* 2 + Vector3.up * 5f;
 
                 // Ajoute une force en direction du vecteur multiplié par la force de dégats
                 m_RigidBody.AddForce(hurtVector * damageSource.hurtForce);

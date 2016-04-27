@@ -69,8 +69,9 @@ public class PlayerAttack : DamageSource {
 
     void OnTriggerEnter2D(Collider2D coll)
     {
-        if(coll.tag == "Enemies")
+        if (((1 << coll.gameObject.layer) & targetLayer.value) != 0)
         {
+
             playerComboScript.addCombo(m_Combo);
             m_PlayerStamina.RegenStamina(1f);
             EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();

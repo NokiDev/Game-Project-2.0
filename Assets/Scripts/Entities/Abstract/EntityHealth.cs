@@ -16,7 +16,7 @@ public abstract class EntityHealth : MonoBehaviour {
     protected Animator anim;//Référence a l'animator
     protected Rigidbody2D rigidBody2D; //Référence au rigidbody
 
-    protected bool isDead;
+    public bool isDead;
     protected bool damaged;
     
     //Fonction public appelé lors d'une prise de dégat
