@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: Assets/test-kim.unity
   - enabled: 1
     path: Assets/TEST/Tim/test.unity
+  - enabled: 1
+    path: Assets/TEST/Eti/test.unity
