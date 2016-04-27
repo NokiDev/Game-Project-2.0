@@ -15,9 +15,9 @@ public class SpikeAttack : DamageSource {
 
 	void OnCollisionEnter2D(Collision2D coll){
 
-		if (coll.gameObject.tag == "Player") {
+		/*if (coll.gameObject.tag == "Player") {
 			EntityHealth healthManager = coll.gameObject.GetComponent<EntityHealth>();
 			healthManager.TakeDamage(this);
-		}
+		}*/
 	}
 }
