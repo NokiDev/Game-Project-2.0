@@ -12,4 +12,12 @@ public class EndTrigger : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag == "Player")
+        {
+            GameObject.Find("EndMenu").GetComponent<EndScript>().enabled = true;
+        }
+    }
 }

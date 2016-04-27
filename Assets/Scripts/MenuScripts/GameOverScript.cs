@@ -24,7 +24,7 @@ public class GameOverScript : MonoBehaviour
         )
         {
             // Recharge le niveau
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Application.LoadLevel(Application.loadedLevel);
         }
 
         if (
