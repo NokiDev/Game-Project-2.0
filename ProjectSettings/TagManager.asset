@@ -10,6 +10,7 @@ TagManager:
   - point
   - Mur
   - Moving
+  - Enemies
   layers:
   - Default
   - TransparentFX
