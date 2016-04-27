@@ -41,6 +41,7 @@ public class snakeScript : MonoBehaviour {
     {
         if (((1 << coll.gameObject.layer) & mask.value) != 0)
         {
+			Debug.LogWarning ("TEST");
             faceRight = !faceRight;
             
         }
