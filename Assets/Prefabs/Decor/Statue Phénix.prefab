@@ -234,7 +234,7 @@ GameObject:
   - 4: {fileID: 428084}
   - 114: {fileID: 11414362}
   m_Layer: 13
-  m_Name: "Statue Ph\xE9nix"
+  m_Name: "Statue Phe\u0301nix"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
