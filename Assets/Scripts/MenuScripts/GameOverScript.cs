@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-
+using UnityEngine.SceneManagement;
 /// <summary>
 /// Relance ou quitte la partie en cours
 /// </summary>
@@ -24,7 +24,7 @@ public class GameOverScript : MonoBehaviour
         )
         {
             // Recharge le niveau
-            Application.LoadLevel("test-kim");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
         if (
